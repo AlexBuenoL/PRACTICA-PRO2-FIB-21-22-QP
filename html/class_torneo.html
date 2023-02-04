@@ -1,0 +1,1230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Práctica de PRO2: Circuito de torneos de tenis: Referencia de la Clase Torneo</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Práctica de PRO2: Circuito de torneos de tenis<span id="projectnumber">&#160;v5.0 16-05-2022</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pri-static-methods">Métodos privados estáticos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="class_torneo-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle"><div class="title">Referencia de la Clase Torneo</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Representa un torneo. Se identifica con un string y pertenece a una <em><a class="el" href="class_categoria.html" title="Representa una categoria del circuito. La categoria se puede identificar con un string (name) o con u...">Categoria</a></em>. Contiene un <em>BinTree</em> que representa el cuadro de emparejamientos al inicio del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>, un vector de jugadores que contiene los participantes de la edición actual del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>, y otro de la última.  
+ <a href="class_torneo.html#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_torneo_8hh_source.html">Torneo.hh</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a7bf6d35a7ec8d0e13a0bed8deb8add3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a7bf6d35a7ec8d0e13a0bed8deb8add3e">Torneo</a> ()</td></tr>
+<tr class="memdesc:a7bf6d35a7ec8d0e13a0bed8deb8add3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creador por defecto. Se genera un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> automáticamente al declararse.  <a href="class_torneo.html#a7bf6d35a7ec8d0e13a0bed8deb8add3e">Más...</a><br /></td></tr>
+<tr class="separator:a7bf6d35a7ec8d0e13a0bed8deb8add3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae13563631864d33d4627671c4a9e2d05"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#ae13563631864d33d4627671c4a9e2d05">Torneo</a> (string &amp;id_to)</td></tr>
+<tr class="memdesc:ae13563631864d33d4627671c4a9e2d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creador inicializado. Se genera automáticamente un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> inicializado con su identificador.  <a href="class_torneo.html#ae13563631864d33d4627671c4a9e2d05">Más...</a><br /></td></tr>
+<tr class="separator:ae13563631864d33d4627671c4a9e2d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11867e78d18da584282da84a14f4fb0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a11867e78d18da584282da84a14f4fb0b">Torneo</a> (string &amp;id_to, <a class="el" href="class_categoria.html">Categoria</a> &amp;ca)</td></tr>
+<tr class="memdesc:a11867e78d18da584282da84a14f4fb0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creador inicializado. Se genera automáticamente un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> inicializado con su identificador y perteneciente a la <a class="el" href="class_categoria.html" title="Representa una categoria del circuito. La categoria se puede identificar con un string (name) o con u...">Categoria</a> indicada.  <a href="class_torneo.html#a11867e78d18da584282da84a14f4fb0b">Más...</a><br /></td></tr>
+<tr class="separator:a11867e78d18da584282da84a14f4fb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99a25da45a8773a11f0adcfc0c860b8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a99a25da45a8773a11f0adcfc0c860b8d">definir_emparejamientos</a> (BinTree&lt; int &gt; &amp;arb, int h, int l, int a, int x)</td></tr>
+<tr class="memdesc:a99a25da45a8773a11f0adcfc0c860b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Confecciona y define el cuadro de emparejamientos del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#a99a25da45a8773a11f0adcfc0c860b8d">Más...</a><br /></td></tr>
+<tr class="separator:a99a25da45a8773a11f0adcfc0c860b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5cd322ccd942b846e95ba03674bf137"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#ac5cd322ccd942b846e95ba03674bf137">asignar_cuadro_emp_participantes</a> (const BinTree&lt; int &gt; &amp;arb, const vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; &amp;r)</td></tr>
+<tr class="memdesc:ac5cd322ccd942b846e95ba03674bf137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se asigna al parámetro implícito el cuadro de emparejamientos y el vector de participantes del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#ac5cd322ccd942b846e95ba03674bf137">Más...</a><br /></td></tr>
+<tr class="separator:ac5cd322ccd942b846e95ba03674bf137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acee9e0512bd06fd5b54f63c801f7e83f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#acee9e0512bd06fd5b54f63c801f7e83f">proc_resultados</a> (BinTree&lt; int &gt; &amp;a, const BinTree&lt; int &gt; &amp;emp, const BinTree&lt; string &gt; &amp;res)</td></tr>
+<tr class="memdesc:acee9e0512bd06fd5b54f63c801f7e83f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se construye un árbol con los resultados del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#acee9e0512bd06fd5b54f63c801f7e83f">Más...</a><br /></td></tr>
+<tr class="separator:acee9e0512bd06fd5b54f63c801f7e83f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2f0014fba75eec8cb965d05d8927543"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#ad2f0014fba75eec8cb965d05d8927543">act_stats</a> (int a, int b, const string &amp;res, <a class="el" href="class_conjunto_jugadores.html">ConjuntoJugadores</a> &amp;jugadores, int nivel)</td></tr>
+<tr class="memdesc:ad2f0014fba75eec8cb965d05d8927543"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actualiza las estadísticas de los dos jugadores que disputan el partido a partir del resultado del mismo.  <a href="class_torneo.html#ad2f0014fba75eec8cb965d05d8927543">Más...</a><br /></td></tr>
+<tr class="separator:ad2f0014fba75eec8cb965d05d8927543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf88fdf3f0ae26738f6b48793467d50"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#adbf88fdf3f0ae26738f6b48793467d50">actualizar_estadisticas</a> (const BinTree&lt; int &gt; &amp;a, const BinTree&lt; string &gt; &amp;res, int nivel, <a class="el" href="class_conjunto_jugadores.html">ConjuntoJugadores</a> &amp;jugadores)</td></tr>
+<tr class="memdesc:adbf88fdf3f0ae26738f6b48793467d50"><td class="mdescLeft">&#160;</td><td class="mdescRight">Actualiza las estadísticas de los jugadores participantes en el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#adbf88fdf3f0ae26738f6b48793467d50">Más...</a><br /></td></tr>
+<tr class="separator:adbf88fdf3f0ae26738f6b48793467d50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae65237e9498cf83baef60315e0d3b601"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#ae65237e9498cf83baef60315e0d3b601">restar_puntos</a> (<a class="el" href="class_conjunto_jugadores.html">ConjuntoJugadores</a> &amp;jugadores)</td></tr>
+<tr class="memdesc:ae65237e9498cf83baef60315e0d3b601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resta los puntos de cada jugador de la última edición del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#ae65237e9498cf83baef60315e0d3b601">Más...</a><br /></td></tr>
+<tr class="separator:ae65237e9498cf83baef60315e0d3b601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9b0f3a8c3cbae85ba97dacb13365a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a9a9b0f3a8c3cbae85ba97dacb13365a5">ult_jugadores</a> (vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; &amp;last)</td></tr>
+<tr class="memdesc:a9a9b0f3a8c3cbae85ba97dacb13365a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se asigna al <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> el vector con los jugadores de la última edición.  <a href="class_torneo.html#a9a9b0f3a8c3cbae85ba97dacb13365a5">Más...</a><br /></td></tr>
+<tr class="separator:a9a9b0f3a8c3cbae85ba97dacb13365a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d603222a8aaf4b9cb9f3b6cae225f7f"><td class="memItemLeft" align="right" valign="top">BinTree&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a8d603222a8aaf4b9cb9f3b6cae225f7f">consultar_cuadro</a> () const</td></tr>
+<tr class="memdesc:a8d603222a8aaf4b9cb9f3b6cae225f7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultora del cuadro de emparejamientos del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#a8d603222a8aaf4b9cb9f3b6cae225f7f">Más...</a><br /></td></tr>
+<tr class="separator:a8d603222a8aaf4b9cb9f3b6cae225f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a847a469b251390d26e4b7674441c0"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#ae2a847a469b251390d26e4b7674441c0">consultar_participantes</a> () const</td></tr>
+<tr class="memdesc:ae2a847a469b251390d26e4b7674441c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultora de los participantes del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#ae2a847a469b251390d26e4b7674441c0">Más...</a><br /></td></tr>
+<tr class="separator:ae2a847a469b251390d26e4b7674441c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4780d8d2cc58dc9fb94960a9f10e2108"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a4780d8d2cc58dc9fb94960a9f10e2108">leer_participantes</a> (vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; &amp;r, <a class="el" href="class_conjunto_jugadores.html">ConjuntoJugadores</a> &amp;jugadores)</td></tr>
+<tr class="memdesc:a4780d8d2cc58dc9fb94960a9f10e2108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de lectura.  <a href="class_torneo.html#a4780d8d2cc58dc9fb94960a9f10e2108">Más...</a><br /></td></tr>
+<tr class="separator:a4780d8d2cc58dc9fb94960a9f10e2108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d5b74bcddcabf2df68ffad82b7ff764"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a9d5b74bcddcabf2df68ffad82b7ff764">imprimir_emparejamientos</a> (const BinTree&lt; int &gt; &amp;a, const vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; &amp;v) const</td></tr>
+<tr class="memdesc:a9d5b74bcddcabf2df68ffad82b7ff764"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de escritura.  <a href="class_torneo.html#a9d5b74bcddcabf2df68ffad82b7ff764">Más...</a><br /></td></tr>
+<tr class="separator:a9d5b74bcddcabf2df68ffad82b7ff764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe8aa5c84adcfd2e376c0d016acc4cce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#abe8aa5c84adcfd2e376c0d016acc4cce">imprimir_resultados</a> (const BinTree&lt; int &gt; &amp;a, const BinTree&lt; string &gt; &amp;res) const</td></tr>
+<tr class="memdesc:abe8aa5c84adcfd2e376c0d016acc4cce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de escritura Se escribe el cuadro de resultados del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#abe8aa5c84adcfd2e376c0d016acc4cce">Más...</a><br /></td></tr>
+<tr class="separator:abe8aa5c84adcfd2e376c0d016acc4cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0e27b1a8f29c9e82387d8f8ad315cb0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#af0e27b1a8f29c9e82387d8f8ad315cb0">listar_puntos</a> () const</td></tr>
+<tr class="memdesc:af0e27b1a8f29c9e82387d8f8ad315cb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de escritura Se listan los puntos ganados por cada jugador en la última edición del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#af0e27b1a8f29c9e82387d8f8ad315cb0">Más...</a><br /></td></tr>
+<tr class="separator:af0e27b1a8f29c9e82387d8f8ad315cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5da1da58b3fee6bd8f6f30d06ac6a7bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a5da1da58b3fee6bd8f6f30d06ac6a7bd">listar_torneo</a> () const</td></tr>
+<tr class="memdesc:a5da1da58b3fee6bd8f6f30d06ac6a7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de escritura.  <a href="class_torneo.html#a5da1da58b3fee6bd8f6f30d06ac6a7bd">Más...</a><br /></td></tr>
+<tr class="separator:a5da1da58b3fee6bd8f6f30d06ac6a7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:ac5b2b08d11f7ff467067797f80f9ca3f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#ac5b2b08d11f7ff467067797f80f9ca3f">leer_resultados</a> (BinTree&lt; string &gt; &amp;a)</td></tr>
+<tr class="memdesc:ac5b2b08d11f7ff467067797f80f9ca3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de lectura.  <a href="class_torneo.html#ac5b2b08d11f7ff467067797f80f9ca3f">Más...</a><br /></td></tr>
+<tr class="separator:ac5b2b08d11f7ff467067797f80f9ca3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Métodos privados estáticos</h2></td></tr>
+<tr class="memitem:a07f1e76bff9374890b0c0bff9bd257b4"><td class="memItemLeft" align="right" valign="top">static vector&lt; ParInt &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a07f1e76bff9374890b0c0bff9bd257b4">conv</a> (const string &amp;res)</td></tr>
+<tr class="memdesc:a07f1e76bff9374890b0c0bff9bd257b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función privada que convierte un string que representa el resultado de un partido en un vector de sets, donde cada set es un <em>ParInt</em> con el resultado del set.  <a href="class_torneo.html#a07f1e76bff9374890b0c0bff9bd257b4">Más...</a><br /></td></tr>
+<tr class="separator:a07f1e76bff9374890b0c0bff9bd257b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2164b2b2708de25463875e59b2b7375b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a2164b2b2708de25463875e59b2b7375b">match</a> (int a, int b, const string &amp;res)</td></tr>
+<tr class="memdesc:a2164b2b2708de25463875e59b2b7375b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función privada que devuelve el ganador de un partido entre dos jugadores.  <a href="class_torneo.html#a2164b2b2708de25463875e59b2b7375b">Más...</a><br /></td></tr>
+<tr class="separator:a2164b2b2708de25463875e59b2b7375b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a51fd34f21fab2dd854d57340a2ffa0a7"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a51fd34f21fab2dd854d57340a2ffa0a7">id</a></td></tr>
+<tr class="separator:a51fd34f21fab2dd854d57340a2ffa0a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadd2423bf92984a08904426de35b12b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_categoria.html">Categoria</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a></td></tr>
+<tr class="separator:aadd2423bf92984a08904426de35b12b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77b86e2f1c9855041d74e086ab044c78"><td class="memItemLeft" align="right" valign="top">BinTree&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#a77b86e2f1c9855041d74e086ab044c78">cuadro_emp</a></td></tr>
+<tr class="memdesc:a77b86e2f1c9855041d74e086ab044c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Es un <em>BinTree</em> (arbol) de enteros que representa el cuadro de emparejamientos del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#a77b86e2f1c9855041d74e086ab044c78">Más...</a><br /></td></tr>
+<tr class="separator:a77b86e2f1c9855041d74e086ab044c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdc205fd63117d1c2164a911ddc506f2"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a></td></tr>
+<tr class="memdesc:afdc205fd63117d1c2164a911ddc506f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector de <em><a class="el" href="class_jugador.html" title="Representa un jugador. Contiene un identificador en forma de string que representa a cada jugador y u...">Jugador</a></em> que contiene los participantes de la edición actual del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">Más...</a><br /></td></tr>
+<tr class="separator:afdc205fd63117d1c2164a911ddc506f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac179cbff13f35ab53ebc343e6874676b"><td class="memItemLeft" align="right" valign="top">vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_torneo.html#ac179cbff13f35ab53ebc343e6874676b">jug_ult_edicion</a></td></tr>
+<tr class="memdesc:ac179cbff13f35ab53ebc343e6874676b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector de <em><a class="el" href="class_jugador.html" title="Representa un jugador. Contiene un identificador en forma de string que representa a cada jugador y u...">Jugador</a></em> que contiene los participantes de la última edición del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>.  <a href="class_torneo.html#ac179cbff13f35ab53ebc343e6874676b">Más...</a><br /></td></tr>
+<tr class="separator:ac179cbff13f35ab53ebc343e6874676b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p >Representa un torneo. Se identifica con un string y pertenece a una <em><a class="el" href="class_categoria.html" title="Representa una categoria del circuito. La categoria se puede identificar con un string (name) o con u...">Categoria</a></em>. Contiene un <em>BinTree</em> que representa el cuadro de emparejamientos al inicio del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>, un vector de jugadores que contiene los participantes de la edición actual del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>, y otro de la última. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8hh_source.html#l00022">22</a> del archivo <a class="el" href="_torneo_8hh_source.html">Torneo.hh</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a id="a7bf6d35a7ec8d0e13a0bed8deb8add3e" name="a7bf6d35a7ec8d0e13a0bed8deb8add3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bf6d35a7ec8d0e13a0bed8deb8add3e">&#9670;&nbsp;</a></span>Torneo() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Torneo::Torneo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creador por defecto. Se genera un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> automáticamente al declararse. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> no inicializado </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00059">59</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   59</span>               {</div>
+<div class="line"><span class="lineno">   60</span>    <span class="keywordtype">id</span> = <span class="stringliteral">&quot; &quot;</span>;</div>
+<div class="line"><span class="lineno">   61</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae13563631864d33d4627671c4a9e2d05" name="ae13563631864d33d4627671c4a9e2d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae13563631864d33d4627671c4a9e2d05">&#9670;&nbsp;</a></span>Torneo() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Torneo::Torneo </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id_to</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creador inicializado. Se genera automáticamente un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> inicializado con su identificador. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con id = id_to </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00063">63</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   63</span>                            {</div>
+<div class="line"><span class="lineno">   64</span>    <span class="keywordtype">id</span> = id_to;</div>
+<div class="line"><span class="lineno">   65</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a11867e78d18da584282da84a14f4fb0b" name="a11867e78d18da584282da84a14f4fb0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11867e78d18da584282da84a14f4fb0b">&#9670;&nbsp;</a></span>Torneo() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Torneo::Torneo </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id_to</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_categoria.html">Categoria</a> &amp;&#160;</td>
+          <td class="paramname"><em>ca</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creador inicializado. Se genera automáticamente un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> inicializado con su identificador y perteneciente a la <a class="el" href="class_categoria.html" title="Representa una categoria del circuito. La categoria se puede identificar con un string (name) o con u...">Categoria</a> indicada. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con id = id_to y <a class="el" href="class_categoria.html" title="Representa una categoria del circuito. La categoria se puede identificar con un string (name) o con u...">Categoria</a> = cat </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00067">67</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   67</span>                                           {</div>
+<div class="line"><span class="lineno">   68</span>    <span class="keywordtype">id</span> = id_to;</div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_variable" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a> = ca;</div>
+<div class="line"><span class="lineno">   70</span>}</div>
+<div class="ttc" id="aclass_torneo_html_aadd2423bf92984a08904426de35b12b3"><div class="ttname"><a href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">Torneo::cat</a></div><div class="ttdeci">Categoria cat</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8hh_source.html#l00027">Torneo.hh:27</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="a07f1e76bff9374890b0c0bff9bd257b4" name="a07f1e76bff9374890b0c0bff9bd257b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f1e76bff9374890b0c0bff9bd257b4">&#9670;&nbsp;</a></span>conv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; ParInt &gt; Torneo::conv </td>
+          <td>(</td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>res</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Función privada que convierte un string que representa el resultado de un partido en un vector de sets, donde cada set es un <em>ParInt</em> con el resultado del set. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es un vector de <em>ParInt</em> con los resultados de los sets en forma de enteros </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00013">13</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   13</span>                                             {</div>
+<div class="line"><span class="lineno">   14</span> </div>
+<div class="line"><span class="lineno">   15</span>    vector&lt;ParInt&gt; v;</div>
+<div class="line"><span class="lineno">   16</span>    <span class="keywordtype">int</span> n = res.length();</div>
+<div class="line"><span class="lineno">   17</span>    <span class="keywordtype">int</span> x, y, cont = 0;</div>
+<div class="line"><span class="lineno">   18</span> </div>
+<div class="line"><span class="lineno">   19</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) {</div>
+<div class="line"><span class="lineno">   20</span>        <span class="keywordflow">if</span> (res[i] &gt;= <span class="charliteral">&#39;0&#39;</span> and res[i] &lt;= <span class="charliteral">&#39;7&#39;</span>) {</div>
+<div class="line"><span class="lineno">   21</span>            <span class="keywordflow">if</span> (cont == 0) x = res[i] - <span class="charliteral">&#39;0&#39;</span>;</div>
+<div class="line"><span class="lineno">   22</span>            <span class="keywordflow">else</span> y = res[i] - <span class="charliteral">&#39;0&#39;</span>;</div>
+<div class="line"><span class="lineno">   23</span>            ++cont;</div>
+<div class="line"><span class="lineno">   24</span>        }</div>
+<div class="line"><span class="lineno">   25</span> </div>
+<div class="line"><span class="lineno">   26</span>        <span class="keywordflow">if</span> (cont == 2) {</div>
+<div class="line"><span class="lineno">   27</span>            ParInt p(x,y);</div>
+<div class="line"><span class="lineno">   28</span>            v.push_back(p);</div>
+<div class="line"><span class="lineno">   29</span>            cont = 0;</div>
+<div class="line"><span class="lineno">   30</span>        }</div>
+<div class="line"><span class="lineno">   31</span>    }</div>
+<div class="line"><span class="lineno">   32</span>    <span class="keywordflow">return</span> v;</div>
+<div class="line"><span class="lineno">   33</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2164b2b2708de25463875e59b2b7375b" name="a2164b2b2708de25463875e59b2b7375b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2164b2b2708de25463875e59b2b7375b">&#9670;&nbsp;</a></span>match()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Torneo::match </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>res</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Función privada que devuelve el ganador de un partido entre dos jugadores. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>'a' y 'b' son dos enteros que representan a dos jugadores dentro del torneo, y "res" es un string que representa el resultado de partido </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es un entero que representa al jugador que resulta ganador del partido </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00035">35</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   35</span>                                                 {</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordflow">if</span> (res == <span class="stringliteral">&quot;1-0&quot;</span>) <span class="keywordflow">return</span> a;</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (res == <span class="stringliteral">&quot;0-1&quot;</span>) <span class="keywordflow">return</span> b;</div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>        <span class="comment">// vector de sets dels resultats</span></div>
+<div class="line"><span class="lineno">   42</span>        vector&lt;ParInt&gt; v = <a class="code hl_function" href="class_torneo.html#a07f1e76bff9374890b0c0bff9bd257b4">conv</a>(res);</div>
+<div class="line"><span class="lineno">   43</span>        <span class="keywordtype">int</span> n = v.size();</div>
+<div class="line"><span class="lineno">   44</span>        <span class="keywordtype">int</span> x = 0, y = 0;</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) {</div>
+<div class="line"><span class="lineno">   47</span>            <span class="keywordflow">if</span> (v[i].primer() &gt; v[i].segon()) ++x;</div>
+<div class="line"><span class="lineno">   48</span>            <span class="keywordflow">else</span> ++y;</div>
+<div class="line"><span class="lineno">   49</span>        }</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">if</span> (x &gt; y) <span class="keywordflow">return</span> a;</div>
+<div class="line"><span class="lineno">   52</span>        <span class="keywordflow">else</span> <span class="keywordflow">return</span> b;</div>
+<div class="line"><span class="lineno">   53</span>    }</div>
+<div class="line"><span class="lineno">   54</span>}</div>
+<div class="ttc" id="aclass_torneo_html_a07f1e76bff9374890b0c0bff9bd257b4"><div class="ttname"><a href="class_torneo.html#a07f1e76bff9374890b0c0bff9bd257b4">Torneo::conv</a></div><div class="ttdeci">static vector&lt; ParInt &gt; conv(const string &amp;res)</div><div class="ttdoc">Función privada que convierte un string que representa el resultado de un partido en un vector de set...</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8cc_source.html#l00013">Torneo.cc:13</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a99a25da45a8773a11f0adcfc0c860b8d" name="a99a25da45a8773a11f0adcfc0c860b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99a25da45a8773a11f0adcfc0c860b8d">&#9670;&nbsp;</a></span>definir_emparejamientos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::definir_emparejamientos </td>
+          <td>(</td>
+          <td class="paramtype">BinTree&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>h</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Confecciona y define el cuadro de emparejamientos del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>'arb' es un árbol vacío, 'h' es la altura que tendrá el árbol, 'l' representa el nivel que en la primera llamada es 1, 'a' representa el ganador y también debe ser 1. Y 'x' es el valor de los jugadores que no tendrán hijos en caso de que el último nivel del árbol sea incompleto </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha definido el cuadro de emparejamientos del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00072">72</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   72</span>                                                                                  {</div>
+<div class="line"><span class="lineno">   73</span> </div>
+<div class="line"><span class="lineno">   74</span>    <span class="comment">// Si estamos en el ultimo nivel, tenemos un nodo sin hijos</span></div>
+<div class="line"><span class="lineno">   75</span>    <span class="keywordflow">if</span> (l == h) </div>
+<div class="line"><span class="lineno">   76</span>        arb = BinTree&lt;int&gt;(a);</div>
+<div class="line"><span class="lineno">   77</span>    </div>
+<div class="line"><span class="lineno">   78</span>    <span class="comment">// Si no estamos en el ultimo nivel:</span></div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>        <span class="comment">// Si a es del nivel h-1 y a &lt;= m-1, tenemos un nodo sin hijos</span></div>
+<div class="line"><span class="lineno">   82</span>        <span class="keywordflow">if</span> (l == h-1 and a &lt;= x) </div>
+<div class="line"><span class="lineno">   83</span>            arb = BinTree&lt;int&gt;(a);  </div>
+<div class="line"><span class="lineno">   84</span>        </div>
+<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">   86</span>            <span class="keywordtype">int</span> b = pow(2, l) + 1 - a;</div>
+<div class="line"><span class="lineno">   87</span>            BinTree&lt;int&gt; izq(a);</div>
+<div class="line"><span class="lineno">   88</span>            BinTree&lt;int&gt; der(b);</div>
+<div class="line"><span class="lineno">   89</span>            <a class="code hl_function" href="class_torneo.html#a99a25da45a8773a11f0adcfc0c860b8d">definir_emparejamientos</a>(izq, h, l+1, a, x);</div>
+<div class="line"><span class="lineno">   90</span>            <a class="code hl_function" href="class_torneo.html#a99a25da45a8773a11f0adcfc0c860b8d">definir_emparejamientos</a>(der, h, l+1, b, x);</div>
+<div class="line"><span class="lineno">   91</span>            arb = BinTree&lt;int&gt;(a,izq,der);</div>
+<div class="line"><span class="lineno">   92</span>        } </div>
+<div class="line"><span class="lineno">   93</span>    }</div>
+<div class="line"><span class="lineno">   94</span>}</div>
+<div class="ttc" id="aclass_torneo_html_a99a25da45a8773a11f0adcfc0c860b8d"><div class="ttname"><a href="class_torneo.html#a99a25da45a8773a11f0adcfc0c860b8d">Torneo::definir_emparejamientos</a></div><div class="ttdeci">void definir_emparejamientos(BinTree&lt; int &gt; &amp;arb, int h, int l, int a, int x)</div><div class="ttdoc">Confecciona y define el cuadro de emparejamientos del Torneo.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8cc_source.html#l00072">Torneo.cc:72</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac5cd322ccd942b846e95ba03674bf137" name="ac5cd322ccd942b846e95ba03674bf137"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5cd322ccd942b846e95ba03674bf137">&#9670;&nbsp;</a></span>asignar_cuadro_emp_participantes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::asignar_cuadro_emp_participantes </td>
+          <td>(</td>
+          <td class="paramtype">const BinTree&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Se asigna al parámetro implícito el cuadro de emparejamientos y el vector de participantes del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>"arb" es un arbol de enteros que contiene el cuadro de emparejamientos y r es un vector de jugadores con los participantes del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha asignado al <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> el cuadro de emparejamientos y el vector de participantes de la edición actual </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00096">96</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   96</span>                                                                                               {</div>
+<div class="line"><span class="lineno">   97</span>    <a class="code hl_variable" href="class_torneo.html#a77b86e2f1c9855041d74e086ab044c78">cuadro_emp</a> = arb;</div>
+<div class="line"><span class="lineno">   98</span>    <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a> = r;</div>
+<div class="line"><span class="lineno">   99</span>}</div>
+<div class="ttc" id="aclass_torneo_html_a77b86e2f1c9855041d74e086ab044c78"><div class="ttname"><a href="class_torneo.html#a77b86e2f1c9855041d74e086ab044c78">Torneo::cuadro_emp</a></div><div class="ttdeci">BinTree&lt; int &gt; cuadro_emp</div><div class="ttdoc">Es un BinTree (arbol) de enteros que representa el cuadro de emparejamientos del Torneo.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8hh_source.html#l00031">Torneo.hh:31</a></div></div>
+<div class="ttc" id="aclass_torneo_html_afdc205fd63117d1c2164a911ddc506f2"><div class="ttname"><a href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">Torneo::jug_edicion_actual</a></div><div class="ttdeci">vector&lt; Jugador &gt; jug_edicion_actual</div><div class="ttdoc">Vector de Jugador que contiene los participantes de la edición actual del Torneo.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8hh_source.html#l00034">Torneo.hh:34</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acee9e0512bd06fd5b54f63c801f7e83f" name="acee9e0512bd06fd5b54f63c801f7e83f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acee9e0512bd06fd5b54f63c801f7e83f">&#9670;&nbsp;</a></span>proc_resultados()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::proc_resultados </td>
+          <td>(</td>
+          <td class="paramtype">BinTree&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BinTree&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>emp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BinTree&lt; string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>res</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Se construye un árbol con los resultados del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>'a' es un árbol vacío, el cuadro de emparejamientos está definido correcamente y 'res' es un árbol de strings con los resultados de los partidos </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>'a' es ahora un árbol con los resultados del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> ya disputado </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00101">101</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  101</span>                                                                                                 {</div>
+<div class="line"><span class="lineno">  102</span> </div>
+<div class="line"><span class="lineno">  103</span>    <span class="keywordflow">if</span> (emp.left().empty() and emp.right().empty()) {</div>
+<div class="line"><span class="lineno">  104</span>        <span class="keywordtype">int</span> x = emp.value();</div>
+<div class="line"><span class="lineno">  105</span>        a = BinTree&lt;int&gt;(x);</div>
+<div class="line"><span class="lineno">  106</span>    }</div>
+<div class="line"><span class="lineno">  107</span> </div>
+<div class="line"><span class="lineno">  108</span>    <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>        BinTree&lt;int&gt; izq = emp.left();</div>
+<div class="line"><span class="lineno">  111</span>        BinTree&lt;int&gt; der = emp.right();</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>        BinTree&lt;string&gt; izq2 = res.left();</div>
+<div class="line"><span class="lineno">  114</span>        BinTree&lt;string&gt; der2 = res.right();</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>        BinTree&lt;int&gt; i;</div>
+<div class="line"><span class="lineno">  117</span>        BinTree&lt;int&gt; d;</div>
+<div class="line"><span class="lineno">  118</span> </div>
+<div class="line"><span class="lineno">  119</span>        <a class="code hl_function" href="class_torneo.html#acee9e0512bd06fd5b54f63c801f7e83f">proc_resultados</a>(i, izq, izq2);</div>
+<div class="line"><span class="lineno">  120</span>        <a class="code hl_function" href="class_torneo.html#acee9e0512bd06fd5b54f63c801f7e83f">proc_resultados</a>(d, der, der2);</div>
+<div class="line"><span class="lineno">  121</span>        </div>
+<div class="line"><span class="lineno">  122</span>        <span class="keywordtype">int</span> x = <a class="code hl_function" href="class_torneo.html#a2164b2b2708de25463875e59b2b7375b">match</a>(i.value(), d.value(), res.value());</div>
+<div class="line"><span class="lineno">  123</span>        a = BinTree&lt;int&gt;(x, i, d);</div>
+<div class="line"><span class="lineno">  124</span>    }</div>
+<div class="line"><span class="lineno">  125</span>}</div>
+<div class="ttc" id="aclass_torneo_html_a2164b2b2708de25463875e59b2b7375b"><div class="ttname"><a href="class_torneo.html#a2164b2b2708de25463875e59b2b7375b">Torneo::match</a></div><div class="ttdeci">static int match(int a, int b, const string &amp;res)</div><div class="ttdoc">Función privada que devuelve el ganador de un partido entre dos jugadores.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8cc_source.html#l00035">Torneo.cc:35</a></div></div>
+<div class="ttc" id="aclass_torneo_html_acee9e0512bd06fd5b54f63c801f7e83f"><div class="ttname"><a href="class_torneo.html#acee9e0512bd06fd5b54f63c801f7e83f">Torneo::proc_resultados</a></div><div class="ttdeci">void proc_resultados(BinTree&lt; int &gt; &amp;a, const BinTree&lt; int &gt; &amp;emp, const BinTree&lt; string &gt; &amp;res)</div><div class="ttdoc">Se construye un árbol con los resultados del Torneo.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8cc_source.html#l00101">Torneo.cc:101</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad2f0014fba75eec8cb965d05d8927543" name="ad2f0014fba75eec8cb965d05d8927543"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2f0014fba75eec8cb965d05d8927543">&#9670;&nbsp;</a></span>act_stats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::act_stats </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const string &amp;&#160;</td>
+          <td class="paramname"><em>res</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_conjunto_jugadores.html">ConjuntoJugadores</a> &amp;&#160;</td>
+          <td class="paramname"><em>jugadores</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nivel</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Actualiza las estadísticas de los dos jugadores que disputan el partido a partir del resultado del mismo. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>'a' y 'b' son dos enteros que representan a dos jugadores que se enfrentan en un partido y 'res' es un string con el resultado de este partido </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han actualizado las estadísticas pertenecientes a los dos jugadores que han participado en el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00127">127</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  127</span>                                                                                               {</div>
+<div class="line"><span class="lineno">  128</span> </div>
+<div class="line"><span class="lineno">  129</span>    vector&lt;ParInt&gt; v = <a class="code hl_function" href="class_torneo.html#a07f1e76bff9374890b0c0bff9bd257b4">conv</a>(res);</div>
+<div class="line"><span class="lineno">  130</span>    <span class="keywordtype">int</span> n = v.size();</div>
+<div class="line"><span class="lineno">  131</span>    <span class="keywordtype">int</span> x = 0, y = 0;</div>
+<div class="line"><span class="lineno">  132</span>    <span class="keywordtype">int</span> juegos_a = 0, juegos_b = 0;</div>
+<div class="line"><span class="lineno">  133</span> </div>
+<div class="line"><span class="lineno">  134</span>    <span class="keywordflow">if</span> (n != 1) {</div>
+<div class="line"><span class="lineno">  135</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) {</div>
+<div class="line"><span class="lineno">  136</span>            juegos_a += v[i].primer();</div>
+<div class="line"><span class="lineno">  137</span>            juegos_b += v[i].segon();</div>
+<div class="line"><span class="lineno">  138</span> </div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordflow">if</span> (v[i].primer() &gt; v[i].segon()) {</div>
+<div class="line"><span class="lineno">  140</span>                jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a537a7dc8aff936c4f51eb4f8411bba16">sumar_restar_set</a>(a, b, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  141</span>                ++x;</div>
+<div class="line"><span class="lineno">  142</span>            } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  143</span>                jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a537a7dc8aff936c4f51eb4f8411bba16">sumar_restar_set</a>(b, a, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  144</span>                ++y;</div>
+<div class="line"><span class="lineno">  145</span>            }</div>
+<div class="line"><span class="lineno">  146</span>        }</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>        jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#aa546bd17b8572001d0c94fd26d452d34">sumar_restar_juegos</a>(a, b, juegos_a, juegos_b, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  149</span>    </div>
+<div class="line"><span class="lineno">  150</span>        <span class="keywordflow">if</span> (x &gt; y) {</div>
+<div class="line"><span class="lineno">  151</span>            jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a4bd5caeaa8660b1ed2fd4e9cde7e47c0">sumar_restar_partido</a>(a, b, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  152</span>            jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a76b38c37f840bb1b3ac886564e4c8692">sumar_puntos</a>(<a class="code hl_variable" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a>, nivel+1, b, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  153</span> </div>
+<div class="line"><span class="lineno">  154</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  155</span>            jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a4bd5caeaa8660b1ed2fd4e9cde7e47c0">sumar_restar_partido</a>(b, a, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  156</span>            jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a76b38c37f840bb1b3ac886564e4c8692">sumar_puntos</a>(<a class="code hl_variable" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a>, nivel+1, a, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  157</span>        }</div>
+<div class="line"><span class="lineno">  158</span> </div>
+<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">if</span> (nivel == 1) {</div>
+<div class="line"><span class="lineno">  160</span>            <span class="keywordflow">if</span> (x &gt; y) </div>
+<div class="line"><span class="lineno">  161</span>                jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a76b38c37f840bb1b3ac886564e4c8692">sumar_puntos</a>(<a class="code hl_variable" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a>, 1, a, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  162</span>            <span class="keywordflow">else</span> </div>
+<div class="line"><span class="lineno">  163</span>                jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a76b38c37f840bb1b3ac886564e4c8692">sumar_puntos</a>(<a class="code hl_variable" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a>, 1, b, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  164</span>        }</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>    } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  167</span> </div>
+<div class="line"><span class="lineno">  168</span>        <span class="keywordflow">if</span> (v[0].primer() &gt; v[0].segon()) {</div>
+<div class="line"><span class="lineno">  169</span>            jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a4bd5caeaa8660b1ed2fd4e9cde7e47c0">sumar_restar_partido</a>(a, b, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  170</span>            jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a76b38c37f840bb1b3ac886564e4c8692">sumar_puntos</a>(<a class="code hl_variable" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a>, nivel+1, b, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  171</span>        } <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  172</span>            jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a4bd5caeaa8660b1ed2fd4e9cde7e47c0">sumar_restar_partido</a>(b, a, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  173</span>            jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a76b38c37f840bb1b3ac886564e4c8692">sumar_puntos</a>(<a class="code hl_variable" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a>, nivel+1, a, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  174</span>        }</div>
+<div class="line"><span class="lineno">  175</span>        <span class="keywordflow">if</span> (nivel == 1) {</div>
+<div class="line"><span class="lineno">  176</span>            <span class="keywordflow">if</span> (v[0].primer() &gt; v[0].segon()) </div>
+<div class="line"><span class="lineno">  177</span>                jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a76b38c37f840bb1b3ac886564e4c8692">sumar_puntos</a>(<a class="code hl_variable" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a>, 1, a, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  178</span>            <span class="keywordflow">else</span> </div>
+<div class="line"><span class="lineno">  179</span>                jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a76b38c37f840bb1b3ac886564e4c8692">sumar_puntos</a>(<a class="code hl_variable" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a>, 1, b, <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>);</div>
+<div class="line"><span class="lineno">  180</span>        }</div>
+<div class="line"><span class="lineno">  181</span>        </div>
+<div class="line"><span class="lineno">  182</span>    }</div>
+<div class="line"><span class="lineno">  183</span>}</div>
+<div class="ttc" id="aclass_conjunto_jugadores_html_a4bd5caeaa8660b1ed2fd4e9cde7e47c0"><div class="ttname"><a href="class_conjunto_jugadores.html#a4bd5caeaa8660b1ed2fd4e9cde7e47c0">ConjuntoJugadores::sumar_restar_partido</a></div><div class="ttdeci">void sumar_restar_partido(int a, int b, const vector&lt; Jugador &gt; &amp;part)</div><div class="ttdoc">Se suman y se restan los partidos a los dos jugadores pasados como parámetro.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_jugadores_8cc_source.html#l00099">ConjuntoJugadores.cc:99</a></div></div>
+<div class="ttc" id="aclass_conjunto_jugadores_html_a537a7dc8aff936c4f51eb4f8411bba16"><div class="ttname"><a href="class_conjunto_jugadores.html#a537a7dc8aff936c4f51eb4f8411bba16">ConjuntoJugadores::sumar_restar_set</a></div><div class="ttdeci">void sumar_restar_set(int a, int b, const vector&lt; Jugador &gt; &amp;part)</div><div class="ttdoc">Se suman y se restan los sets a los dos jugadores pasados como parámetro.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_jugadores_8cc_source.html#l00091">ConjuntoJugadores.cc:91</a></div></div>
+<div class="ttc" id="aclass_conjunto_jugadores_html_a76b38c37f840bb1b3ac886564e4c8692"><div class="ttname"><a href="class_conjunto_jugadores.html#a76b38c37f840bb1b3ac886564e4c8692">ConjuntoJugadores::sumar_puntos</a></div><div class="ttdeci">void sumar_puntos(Categoria &amp;cat, int nivel, int a, vector&lt; Jugador &gt; &amp;part)</div><div class="ttdoc">Se suman y se restan los puntos pertenecientes a los dos jugadores pasados como parámetro.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_jugadores_8cc_source.html#l00107">ConjuntoJugadores.cc:107</a></div></div>
+<div class="ttc" id="aclass_conjunto_jugadores_html_aa546bd17b8572001d0c94fd26d452d34"><div class="ttname"><a href="class_conjunto_jugadores.html#aa546bd17b8572001d0c94fd26d452d34">ConjuntoJugadores::sumar_restar_juegos</a></div><div class="ttdeci">void sumar_restar_juegos(int a, int b, int x, int y, const vector&lt; Jugador &gt; &amp;part)</div><div class="ttdoc">Se suman y se restan los juegos pertenecientes a los dos jugadores pasados como parámetro.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_jugadores_8cc_source.html#l00081">ConjuntoJugadores.cc:81</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adbf88fdf3f0ae26738f6b48793467d50" name="adbf88fdf3f0ae26738f6b48793467d50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf88fdf3f0ae26738f6b48793467d50">&#9670;&nbsp;</a></span>actualizar_estadisticas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::actualizar_estadisticas </td>
+          <td>(</td>
+          <td class="paramtype">const BinTree&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BinTree&lt; string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>res</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nivel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_conjunto_jugadores.html">ConjuntoJugadores</a> &amp;&#160;</td>
+          <td class="paramname"><em>jugadores</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Actualiza las estadísticas de los jugadores participantes en el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>'a' es el árbol de enteros que representa los resultados y 'res' el árbol de strings con los resultados de los partidos </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han actualizado las estadísticas pertenecientes a cada jugador que ha participado en el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00185">185</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  185</span>                                                                                                                               {</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>    <span class="keywordflow">if</span> (not res.empty()) {</div>
+<div class="line"><span class="lineno">  188</span>        <a class="code hl_function" href="class_torneo.html#ad2f0014fba75eec8cb965d05d8927543">act_stats</a>(a.left().value(), a.right().value(), res.value(), jugadores, nivel);</div>
+<div class="line"><span class="lineno">  189</span>        <a class="code hl_function" href="class_torneo.html#adbf88fdf3f0ae26738f6b48793467d50">actualizar_estadisticas</a>(a.left(), res.left(), nivel+1, jugadores);</div>
+<div class="line"><span class="lineno">  190</span>        <a class="code hl_function" href="class_torneo.html#adbf88fdf3f0ae26738f6b48793467d50">actualizar_estadisticas</a>(a.right(), res.right(), nivel+1, jugadores);</div>
+<div class="line"><span class="lineno">  191</span>    }</div>
+<div class="line"><span class="lineno">  192</span>}</div>
+<div class="ttc" id="aclass_torneo_html_ad2f0014fba75eec8cb965d05d8927543"><div class="ttname"><a href="class_torneo.html#ad2f0014fba75eec8cb965d05d8927543">Torneo::act_stats</a></div><div class="ttdeci">void act_stats(int a, int b, const string &amp;res, ConjuntoJugadores &amp;jugadores, int nivel)</div><div class="ttdoc">Actualiza las estadísticas de los dos jugadores que disputan el partido a partir del resultado del mi...</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8cc_source.html#l00127">Torneo.cc:127</a></div></div>
+<div class="ttc" id="aclass_torneo_html_adbf88fdf3f0ae26738f6b48793467d50"><div class="ttname"><a href="class_torneo.html#adbf88fdf3f0ae26738f6b48793467d50">Torneo::actualizar_estadisticas</a></div><div class="ttdeci">void actualizar_estadisticas(const BinTree&lt; int &gt; &amp;a, const BinTree&lt; string &gt; &amp;res, int nivel, ConjuntoJugadores &amp;jugadores)</div><div class="ttdoc">Actualiza las estadísticas de los jugadores participantes en el Torneo.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8cc_source.html#l00185">Torneo.cc:185</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae65237e9498cf83baef60315e0d3b601" name="ae65237e9498cf83baef60315e0d3b601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae65237e9498cf83baef60315e0d3b601">&#9670;&nbsp;</a></span>restar_puntos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::restar_puntos </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_conjunto_jugadores.html">ConjuntoJugadores</a> &amp;&#160;</td>
+          <td class="paramname"><em>jugadores</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Resta los puntos de cada jugador de la última edición del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han restado los puntos de cada jugador de la última edición del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00194">194</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  194</span>                                                       {</div>
+<div class="line"><span class="lineno">  195</span> </div>
+<div class="line"><span class="lineno">  196</span>    <span class="keywordtype">int</span> n = <a class="code hl_variable" href="class_torneo.html#ac179cbff13f35ab53ebc343e6874676b">jug_ult_edicion</a>.size();</div>
+<div class="line"><span class="lineno">  197</span>    <span class="keywordflow">if</span> (n != 0) {</div>
+<div class="line"><span class="lineno">  198</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) {</div>
+<div class="line"><span class="lineno">  199</span>            <span class="keywordtype">string</span> id_p = <a class="code hl_variable" href="class_torneo.html#ac179cbff13f35ab53ebc343e6874676b">jug_ult_edicion</a>[i].consultar_nombre();</div>
+<div class="line"><span class="lineno">  200</span>            <span class="keywordtype">int</span> x = <a class="code hl_variable" href="class_torneo.html#ac179cbff13f35ab53ebc343e6874676b">jug_ult_edicion</a>[i].consultar_ptos_rest();</div>
+<div class="line"><span class="lineno">  201</span>            jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#aac82d480dcdf7cefd79458d64724fe67">restar</a>(id_p, x);</div>
+<div class="line"><span class="lineno">  202</span>        }</div>
+<div class="line"><span class="lineno">  203</span>    }</div>
+<div class="line"><span class="lineno">  204</span>}</div>
+<div class="ttc" id="aclass_conjunto_jugadores_html_aac82d480dcdf7cefd79458d64724fe67"><div class="ttname"><a href="class_conjunto_jugadores.html#aac82d480dcdf7cefd79458d64724fe67">ConjuntoJugadores::restar</a></div><div class="ttdeci">void restar(string &amp;id_p, int pt)</div><div class="ttdoc">Se restan los puntos pertenecientes al Jugador con identificador &quot;id_p&quot;.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_jugadores_8cc_source.html#l00118">ConjuntoJugadores.cc:118</a></div></div>
+<div class="ttc" id="aclass_torneo_html_ac179cbff13f35ab53ebc343e6874676b"><div class="ttname"><a href="class_torneo.html#ac179cbff13f35ab53ebc343e6874676b">Torneo::jug_ult_edicion</a></div><div class="ttdeci">vector&lt; Jugador &gt; jug_ult_edicion</div><div class="ttdoc">Vector de Jugador que contiene los participantes de la última edición del Torneo.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8hh_source.html#l00037">Torneo.hh:37</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9a9b0f3a8c3cbae85ba97dacb13365a5" name="a9a9b0f3a8c3cbae85ba97dacb13365a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a9b0f3a8c3cbae85ba97dacb13365a5">&#9670;&nbsp;</a></span>ult_jugadores()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::ult_jugadores </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>last</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Se asigna al <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> el vector con los jugadores de la última edición. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>"last" es el vector de los participantes de esta edición del torneo </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha asignado/actualizado el vector de jugadores de la última edición del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00206">206</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  206</span>                                                {</div>
+<div class="line"><span class="lineno">  207</span>    <a class="code hl_variable" href="class_torneo.html#ac179cbff13f35ab53ebc343e6874676b">jug_ult_edicion</a> = last;</div>
+<div class="line"><span class="lineno">  208</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8d603222a8aaf4b9cb9f3b6cae225f7f" name="a8d603222a8aaf4b9cb9f3b6cae225f7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d603222a8aaf4b9cb9f3b6cae225f7f">&#9670;&nbsp;</a></span>consultar_cuadro()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BinTree&lt; int &gt; Torneo::consultar_cuadro </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultora del cuadro de emparejamientos del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>Cuadro de emparejamientos del torneo definido correctamente </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha devuelto un árbol de enteros que representa el cuadro de emparejamientos del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00210">210</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  210</span>                                           {</div>
+<div class="line"><span class="lineno">  211</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_torneo.html#a77b86e2f1c9855041d74e086ab044c78">cuadro_emp</a>;</div>
+<div class="line"><span class="lineno">  212</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae2a847a469b251390d26e4b7674441c0" name="ae2a847a469b251390d26e4b7674441c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a847a469b251390d26e4b7674441c0">&#9670;&nbsp;</a></span>consultar_participantes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; Torneo::consultar_participantes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultora de los participantes del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>Vector de participantes del torneo definido correctamente </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha devuelto el vector de participantes del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00214">214</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  214</span>                                                     {</div>
+<div class="line"><span class="lineno">  215</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>;</div>
+<div class="line"><span class="lineno">  216</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4780d8d2cc58dc9fb94960a9f10e2108" name="a4780d8d2cc58dc9fb94960a9f10e2108"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4780d8d2cc58dc9fb94960a9f10e2108">&#9670;&nbsp;</a></span>leer_participantes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::leer_participantes </td>
+          <td>(</td>
+          <td class="paramtype">vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_conjunto_jugadores.html">ConjuntoJugadores</a> &amp;&#160;</td>
+          <td class="paramname"><em>jugadores</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de lectura. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>Hay preparados en el canal estándar de entrada una serie de enteros que representan las posiciones del ranking de los jugadores participantes </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han leído los jugadores que participan en el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> y se han almacenado en el vector 'r' </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00218">218</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  218</span>                                                                                {</div>
+<div class="line"><span class="lineno">  219</span>    <span class="keywordtype">int</span> n = r.size();</div>
+<div class="line"><span class="lineno">  220</span>    <span class="keywordtype">int</span> x;</div>
+<div class="line"><span class="lineno">  221</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) {</div>
+<div class="line"><span class="lineno">  222</span>        cin &gt;&gt; x;</div>
+<div class="line"><span class="lineno">  223</span>        r[i] = jugadores.<a class="code hl_function" href="class_conjunto_jugadores.html#a28f0eeaba50a59500b55126b8c7a255e">consultar_jugador_rank</a>(x);</div>
+<div class="line"><span class="lineno">  224</span>    }</div>
+<div class="line"><span class="lineno">  225</span>}</div>
+<div class="ttc" id="aclass_conjunto_jugadores_html_a28f0eeaba50a59500b55126b8c7a255e"><div class="ttname"><a href="class_conjunto_jugadores.html#a28f0eeaba50a59500b55126b8c7a255e">ConjuntoJugadores::consultar_jugador_rank</a></div><div class="ttdeci">Jugador consultar_jugador_rank(int x) const</div><div class="ttdoc">Se consulta cuál es el Jugador con posición x del ranking.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_jugadores_8cc_source.html#l00145">ConjuntoJugadores.cc:145</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac5b2b08d11f7ff467067797f80f9ca3f" name="ac5b2b08d11f7ff467067797f80f9ca3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5b2b08d11f7ff467067797f80f9ca3f">&#9670;&nbsp;</a></span>leer_resultados()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::leer_resultados </td>
+          <td>(</td>
+          <td class="paramtype">BinTree&lt; string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Operación de lectura. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>Hay preparados en el canal estándar de entrada una serie de strings que representan los resultados de los partidos del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> leídos en preorden </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>'a' es un arbol de strings con los resultados de los partidos del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00227">227</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  227</span>                                               { </div>
+<div class="line"><span class="lineno">  228</span> </div>
+<div class="line"><span class="lineno">  229</span>    <span class="keywordtype">string</span> x;</div>
+<div class="line"><span class="lineno">  230</span>    cin &gt;&gt; x;</div>
+<div class="line"><span class="lineno">  231</span> </div>
+<div class="line"><span class="lineno">  232</span>    <span class="keywordflow">if</span> (x != <span class="stringliteral">&quot;0&quot;</span>) {</div>
+<div class="line"><span class="lineno">  233</span>        BinTree&lt;string&gt; izq;</div>
+<div class="line"><span class="lineno">  234</span>        BinTree&lt;string&gt; der;</div>
+<div class="line"><span class="lineno">  235</span>        <a class="code hl_function" href="class_torneo.html#ac5b2b08d11f7ff467067797f80f9ca3f">leer_resultados</a>(izq);</div>
+<div class="line"><span class="lineno">  236</span>        <a class="code hl_function" href="class_torneo.html#ac5b2b08d11f7ff467067797f80f9ca3f">leer_resultados</a>(der); </div>
+<div class="line"><span class="lineno">  237</span>        a = BinTree&lt;string&gt;(x,izq,der);</div>
+<div class="line"><span class="lineno">  238</span>    }</div>
+<div class="line"><span class="lineno">  239</span>}    </div>
+<div class="ttc" id="aclass_torneo_html_ac5b2b08d11f7ff467067797f80f9ca3f"><div class="ttname"><a href="class_torneo.html#ac5b2b08d11f7ff467067797f80f9ca3f">Torneo::leer_resultados</a></div><div class="ttdeci">static void leer_resultados(BinTree&lt; string &gt; &amp;a)</div><div class="ttdoc">Operación de lectura.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8cc_source.html#l00227">Torneo.cc:227</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9d5b74bcddcabf2df68ffad82b7ff764" name="a9d5b74bcddcabf2df68ffad82b7ff764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d5b74bcddcabf2df68ffad82b7ff764">&#9670;&nbsp;</a></span>imprimir_emparejamientos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::imprimir_emparejamientos </td>
+          <td>(</td>
+          <td class="paramtype">const BinTree&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de escritura. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>'a' cuadro de emparejamientos definido correcamente y 'v' contiene los participantes del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha escrito a través del canal estándar de salida el cuadro de emparejamientos </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00241">241</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  241</span>                                                                                          {</div>
+<div class="line"><span class="lineno">  242</span>    </div>
+<div class="line"><span class="lineno">  243</span>    <span class="keywordflow">if</span> (a.left().empty() and a.right().empty())</div>
+<div class="line"><span class="lineno">  244</span>        cout &lt;&lt; a.value() &lt;&lt; <span class="charliteral">&#39;.&#39;</span> &lt;&lt; v[a.value()-1].consultar_nombre();</div>
+<div class="line"><span class="lineno">  245</span>    <span class="keywordflow">else</span> {</div>
+<div class="line"><span class="lineno">  246</span>        cout &lt;&lt; <span class="charliteral">&#39;(&#39;</span>;</div>
+<div class="line"><span class="lineno">  247</span>        <a class="code hl_function" href="class_torneo.html#a9d5b74bcddcabf2df68ffad82b7ff764">imprimir_emparejamientos</a>(a.left(), v);</div>
+<div class="line"><span class="lineno">  248</span>        cout &lt;&lt; <span class="charliteral">&#39; &#39;</span>;</div>
+<div class="line"><span class="lineno">  249</span>        <a class="code hl_function" href="class_torneo.html#a9d5b74bcddcabf2df68ffad82b7ff764">imprimir_emparejamientos</a>(a.right(), v);</div>
+<div class="line"><span class="lineno">  250</span>        cout &lt;&lt; <span class="charliteral">&#39;)&#39;</span>;</div>
+<div class="line"><span class="lineno">  251</span>    }</div>
+<div class="line"><span class="lineno">  252</span>}</div>
+<div class="ttc" id="aclass_torneo_html_a9d5b74bcddcabf2df68ffad82b7ff764"><div class="ttname"><a href="class_torneo.html#a9d5b74bcddcabf2df68ffad82b7ff764">Torneo::imprimir_emparejamientos</a></div><div class="ttdeci">void imprimir_emparejamientos(const BinTree&lt; int &gt; &amp;a, const vector&lt; Jugador &gt; &amp;v) const</div><div class="ttdoc">Operación de escritura.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8cc_source.html#l00241">Torneo.cc:241</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abe8aa5c84adcfd2e376c0d016acc4cce" name="abe8aa5c84adcfd2e376c0d016acc4cce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe8aa5c84adcfd2e376c0d016acc4cce">&#9670;&nbsp;</a></span>imprimir_resultados()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::imprimir_resultados </td>
+          <td>(</td>
+          <td class="paramtype">const BinTree&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BinTree&lt; string &gt; &amp;&#160;</td>
+          <td class="paramname"><em>res</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de escritura Se escribe el cuadro de resultados del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>'res' es un BinTree con los resultados del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha escrito el cuadro de resultados del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00254">254</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  254</span>                                                                                       {</div>
+<div class="line"><span class="lineno">  255</span>    </div>
+<div class="line"><span class="lineno">  256</span>    <span class="keywordflow">if</span> (not a.left().empty() and not a.right().empty()) {</div>
+<div class="line"><span class="lineno">  257</span>        cout &lt;&lt; <span class="charliteral">&#39;(&#39;</span>;</div>
+<div class="line"><span class="lineno">  258</span>        cout &lt;&lt; a.left().value() &lt;&lt; <span class="charliteral">&#39;.&#39;</span> &lt;&lt; <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>[a.left().value()-1].consultar_nombre() &lt;&lt; <span class="stringliteral">&quot; vs &quot;</span>;</div>
+<div class="line"><span class="lineno">  259</span>        cout &lt;&lt; a.right().value() &lt;&lt; <span class="charliteral">&#39;.&#39;</span> &lt;&lt; <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>[a.right().value()-1].consultar_nombre() &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; res.value();</div>
+<div class="line"><span class="lineno">  260</span>        <a class="code hl_function" href="class_torneo.html#abe8aa5c84adcfd2e376c0d016acc4cce">imprimir_resultados</a>(a.left(), res.left());</div>
+<div class="line"><span class="lineno">  261</span>        <a class="code hl_function" href="class_torneo.html#abe8aa5c84adcfd2e376c0d016acc4cce">imprimir_resultados</a>(a.right(), res.right());</div>
+<div class="line"><span class="lineno">  262</span>        cout &lt;&lt; <span class="charliteral">&#39;)&#39;</span>;</div>
+<div class="line"><span class="lineno">  263</span>    } </div>
+<div class="line"><span class="lineno">  264</span>}</div>
+<div class="ttc" id="aclass_torneo_html_abe8aa5c84adcfd2e376c0d016acc4cce"><div class="ttname"><a href="class_torneo.html#abe8aa5c84adcfd2e376c0d016acc4cce">Torneo::imprimir_resultados</a></div><div class="ttdeci">void imprimir_resultados(const BinTree&lt; int &gt; &amp;a, const BinTree&lt; string &gt; &amp;res) const</div><div class="ttdoc">Operación de escritura Se escribe el cuadro de resultados del Torneo.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8cc_source.html#l00254">Torneo.cc:254</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af0e27b1a8f29c9e82387d8f8ad315cb0" name="af0e27b1a8f29c9e82387d8f8ad315cb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0e27b1a8f29c9e82387d8f8ad315cb0">&#9670;&nbsp;</a></span>listar_puntos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::listar_puntos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de escritura Se listan los puntos ganados por cada jugador en la última edición del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha escrito a través del canal estándar de salida los puntos ganados por cada jugador en la última edición del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> de los jugadores con una puntuación conseguida diferente de 0 </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00266">266</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  266</span>                                {</div>
+<div class="line"><span class="lineno">  267</span> </div>
+<div class="line"><span class="lineno">  268</span>    <span class="keywordtype">int</span> n = <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>.size();</div>
+<div class="line"><span class="lineno">  269</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i) {</div>
+<div class="line"><span class="lineno">  270</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>[i].consultar_ptos_rest() != 0) </div>
+<div class="line"><span class="lineno">  271</span>            cout  &lt;&lt; i+1 &lt;&lt; <span class="charliteral">&#39;.&#39;</span> &lt;&lt; <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>[i].consultar_nombre() &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="class_torneo.html#afdc205fd63117d1c2164a911ddc506f2">jug_edicion_actual</a>[i].consultar_ptos_rest() &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  272</span>    }</div>
+<div class="line"><span class="lineno">  273</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5da1da58b3fee6bd8f6f30d06ac6a7bd" name="a5da1da58b3fee6bd8f6f30d06ac6a7bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5da1da58b3fee6bd8f6f30d06ac6a7bd">&#9670;&nbsp;</a></span>listar_torneo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Torneo::listar_torneo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de escritura. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha escrito a través del canal estándar de salida el nombre y la categoria a la que pertenece el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8cc_source.html#l00275">275</a> del archivo <a class="el" href="_torneo_8cc_source.html">Torneo.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  275</span>                                {</div>
+<div class="line"><span class="lineno">  276</span>    cout &lt;&lt; <span class="keywordtype">id</span> &lt;&lt; <span class="charliteral">&#39; &#39;</span> &lt;&lt; <a class="code hl_variable" href="class_torneo.html#aadd2423bf92984a08904426de35b12b3">cat</a>.<a class="code hl_function" href="class_categoria.html#a95159c16cf4c1ae3f255ee066a852477">consultar_nombre_categoria</a>() &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">  277</span>}</div>
+<div class="ttc" id="aclass_categoria_html_a95159c16cf4c1ae3f255ee066a852477"><div class="ttname"><a href="class_categoria.html#a95159c16cf4c1ae3f255ee066a852477">Categoria::consultar_nombre_categoria</a></div><div class="ttdeci">string consultar_nombre_categoria() const</div><div class="ttdoc">Consultor del nombre de la Categoria.</div><div class="ttdef"><b>Definition:</b> <a href="_categoria_8cc_source.html#l00030">Categoria.cc:30</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="a51fd34f21fab2dd854d57340a2ffa0a7" name="a51fd34f21fab2dd854d57340a2ffa0a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51fd34f21fab2dd854d57340a2ffa0a7">&#9670;&nbsp;</a></span>id</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Torneo::id</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8hh_source.html#l00026">26</a> del archivo <a class="el" href="_torneo_8hh_source.html">Torneo.hh</a>.</p>
+
+</div>
+</div>
+<a id="aadd2423bf92984a08904426de35b12b3" name="aadd2423bf92984a08904426de35b12b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadd2423bf92984a08904426de35b12b3">&#9670;&nbsp;</a></span>cat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_categoria.html">Categoria</a> Torneo::cat</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8hh_source.html#l00027">27</a> del archivo <a class="el" href="_torneo_8hh_source.html">Torneo.hh</a>.</p>
+
+</div>
+</div>
+<a id="a77b86e2f1c9855041d74e086ab044c78" name="a77b86e2f1c9855041d74e086ab044c78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77b86e2f1c9855041d74e086ab044c78">&#9670;&nbsp;</a></span>cuadro_emp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BinTree&lt;int&gt; Torneo::cuadro_emp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Es un <em>BinTree</em> (arbol) de enteros que representa el cuadro de emparejamientos del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8hh_source.html#l00031">31</a> del archivo <a class="el" href="_torneo_8hh_source.html">Torneo.hh</a>.</p>
+
+</div>
+</div>
+<a id="afdc205fd63117d1c2164a911ddc506f2" name="afdc205fd63117d1c2164a911ddc506f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdc205fd63117d1c2164a911ddc506f2">&#9670;&nbsp;</a></span>jug_edicion_actual</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt;<a class="el" href="class_jugador.html">Jugador</a>&gt; Torneo::jug_edicion_actual</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vector de <em><a class="el" href="class_jugador.html" title="Representa un jugador. Contiene un identificador en forma de string que representa a cada jugador y u...">Jugador</a></em> que contiene los participantes de la edición actual del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8hh_source.html#l00034">34</a> del archivo <a class="el" href="_torneo_8hh_source.html">Torneo.hh</a>.</p>
+
+</div>
+</div>
+<a id="ac179cbff13f35ab53ebc343e6874676b" name="ac179cbff13f35ab53ebc343e6874676b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac179cbff13f35ab53ebc343e6874676b">&#9670;&nbsp;</a></span>jug_ult_edicion</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">vector&lt;<a class="el" href="class_jugador.html">Jugador</a>&gt; Torneo::jug_ult_edicion</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Vector de <em><a class="el" href="class_jugador.html" title="Representa un jugador. Contiene un identificador en forma de string que representa a cada jugador y u...">Jugador</a></em> que contiene los participantes de la última edición del <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_torneo_8hh_source.html#l00037">37</a> del archivo <a class="el" href="_torneo_8hh_source.html">Torneo.hh</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir de los siguientes ficheros:<ul>
+<li><a class="el" href="_torneo_8hh_source.html">Torneo.hh</a></li>
+<li><a class="el" href="_torneo_8cc_source.html">Torneo.cc</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>

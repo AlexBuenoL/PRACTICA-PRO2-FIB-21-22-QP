@@ -1,0 +1,545 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Práctica de PRO2: Circuito de torneos de tenis: Referencia de la Clase ConjuntoTorneos</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Práctica de PRO2: Circuito de torneos de tenis<span id="projectnumber">&#160;v5.0 16-05-2022</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pri-attribs">Atributos privados</a> &#124;
+<a href="class_conjunto_torneos-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle"><div class="title">Referencia de la Clase ConjuntoTorneos</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Representa un conjunto de torneos. Conjunto de torneos ordenados crecientemente por nombre. Se puede modificar añadiendo o eliminando torneos, consultar si existe un determinado torneo o consultar el número de elementos del conjunto.  
+ <a href="class_conjunto_torneos.html#details">Más...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_conjunto_torneos_8hh_source.html">ConjuntoTorneos.hh</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ab5d1ef8c55d523d3d6bb64916a6971a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#ab5d1ef8c55d523d3d6bb64916a6971a2">ConjuntoTorneos</a> ()</td></tr>
+<tr class="memdesc:ab5d1ef8c55d523d3d6bb64916a6971a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creador por defecto Se genera un conjunto de torneos automáticamente al declararse.  <a href="class_conjunto_torneos.html#ab5d1ef8c55d523d3d6bb64916a6971a2">Más...</a><br /></td></tr>
+<tr class="separator:ab5d1ef8c55d523d3d6bb64916a6971a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acadcd86c1aedd3a364ef16e7a5ce4418"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#acadcd86c1aedd3a364ef16e7a5ce4418">ConjuntoTorneos</a> (int t)</td></tr>
+<tr class="memdesc:acadcd86c1aedd3a364ef16e7a5ce4418"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creador inicializado Se genera un conjunto de torneos inicializado con un número de torneos.  <a href="class_conjunto_torneos.html#acadcd86c1aedd3a364ef16e7a5ce4418">Más...</a><br /></td></tr>
+<tr class="separator:acadcd86c1aedd3a364ef16e7a5ce4418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac789669cdaf852691b4828e96177df5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#ac789669cdaf852691b4828e96177df5e">nuevo_torneo</a> (string &amp;id, <a class="el" href="class_categoria.html">Categoria</a> &amp;cat)</td></tr>
+<tr class="memdesc:ac789669cdaf852691b4828e96177df5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se añade un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con identificador y categoría al conjunto.  <a href="class_conjunto_torneos.html#ac789669cdaf852691b4828e96177df5e">Más...</a><br /></td></tr>
+<tr class="separator:ac789669cdaf852691b4828e96177df5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7031c200aaf404148febd4e06186c628"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#a7031c200aaf404148febd4e06186c628">baja_torneo</a> (string &amp;id)</td></tr>
+<tr class="memdesc:a7031c200aaf404148febd4e06186c628"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se elimina un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con identificador id del conjunto de torneos.  <a href="class_conjunto_torneos.html#a7031c200aaf404148febd4e06186c628">Más...</a><br /></td></tr>
+<tr class="separator:a7031c200aaf404148febd4e06186c628"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9caef63761c6494ef44389e6e478746c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#a9caef63761c6494ef44389e6e478746c">definir_cuadro_y_participantes</a> (string &amp;id_to, const BinTree&lt; int &gt; &amp;arb, const vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; &amp;r)</td></tr>
+<tr class="memdesc:a9caef63761c6494ef44389e6e478746c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se asigna el cuadro de emparejamientos y los participantes al <em><a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a></em> requerido.  <a href="class_conjunto_torneos.html#a9caef63761c6494ef44389e6e478746c">Más...</a><br /></td></tr>
+<tr class="separator:a9caef63761c6494ef44389e6e478746c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a758c8f83b85bd53373413d6f39880d05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#a758c8f83b85bd53373413d6f39880d05">definir_ult_jugadores</a> (string &amp;id_to, <a class="el" href="class_torneo.html">Torneo</a> &amp;torn)</td></tr>
+<tr class="memdesc:a758c8f83b85bd53373413d6f39880d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Se asignan los participantes de la última edición al <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> requerido.  <a href="class_conjunto_torneos.html#a758c8f83b85bd53373413d6f39880d05">Más...</a><br /></td></tr>
+<tr class="separator:a758c8f83b85bd53373413d6f39880d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2e69f831fcaaa9b03d473ca85d2a138"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#ad2e69f831fcaaa9b03d473ca85d2a138">existe_torneo</a> (string &amp;id)</td></tr>
+<tr class="memdesc:ad2e69f831fcaaa9b03d473ca85d2a138"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultor que indica si existe el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> dentro del conjunto de torneos.  <a href="class_conjunto_torneos.html#ad2e69f831fcaaa9b03d473ca85d2a138">Más...</a><br /></td></tr>
+<tr class="separator:ad2e69f831fcaaa9b03d473ca85d2a138"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac96267f738eb23fe7016bcab08e1c961"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#ac96267f738eb23fe7016bcab08e1c961">numero_torneos</a> () const</td></tr>
+<tr class="memdesc:ac96267f738eb23fe7016bcab08e1c961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Consultor del número de toneos total del conjunto.  <a href="class_conjunto_torneos.html#ac96267f738eb23fe7016bcab08e1c961">Más...</a><br /></td></tr>
+<tr class="separator:ac96267f738eb23fe7016bcab08e1c961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad346e7fdfa4db9ade1b592a0a890bb7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_torneo.html">Torneo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#ad346e7fdfa4db9ade1b592a0a890bb7c">consultar_torneo</a> (string &amp;id_to)</td></tr>
+<tr class="memdesc:ad346e7fdfa4db9ade1b592a0a890bb7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Devuelve el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con identificador id_to.  <a href="class_conjunto_torneos.html#ad346e7fdfa4db9ade1b592a0a890bb7c">Más...</a><br /></td></tr>
+<tr class="separator:ad346e7fdfa4db9ade1b592a0a890bb7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a4e5af51e2d5941c6ac93c2ff3fe777"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#a5a4e5af51e2d5941c6ac93c2ff3fe777">leer_torneos</a> (map&lt; int, <a class="el" href="class_categoria.html">Categoria</a> &gt; &amp;map_cat)</td></tr>
+<tr class="memdesc:a5a4e5af51e2d5941c6ac93c2ff3fe777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de lectura de los torneos del conjunto de torneos.  <a href="class_conjunto_torneos.html#a5a4e5af51e2d5941c6ac93c2ff3fe777">Más...</a><br /></td></tr>
+<tr class="separator:a5a4e5af51e2d5941c6ac93c2ff3fe777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac4262de7d64c3fa0f24feb089818e3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#aac4262de7d64c3fa0f24feb089818e3e">listar_torneos</a> ()</td></tr>
+<tr class="memdesc:aac4262de7d64c3fa0f24feb089818e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operación de escritura de los torneos del conjunto de torneos.  <a href="class_conjunto_torneos.html#aac4262de7d64c3fa0f24feb089818e3e">Más...</a><br /></td></tr>
+<tr class="separator:aac4262de7d64c3fa0f24feb089818e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Atributos privados</h2></td></tr>
+<tr class="memitem:a155ebbb2be65c0b165081ee81318ff96"><td class="memItemLeft" align="right" valign="top">map&lt; string, <a class="el" href="class_torneo.html">Torneo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a></td></tr>
+<tr class="memdesc:a155ebbb2be65c0b165081ee81318ff96"><td class="mdescLeft">&#160;</td><td class="mdescRight">map de <em><a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a></em> que representa el conjunto de torneos y contiene todos los del circuito  <a href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">Más...</a><br /></td></tr>
+<tr class="separator:a155ebbb2be65c0b165081ee81318ff96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a800d0bb34fb229a939c54833c331794f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ntor</a></td></tr>
+<tr class="separator:a800d0bb34fb229a939c54833c331794f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p >Representa un conjunto de torneos. Conjunto de torneos ordenados crecientemente por nombre. Se puede modificar añadiendo o eliminando torneos, consultar si existe un determinado torneo o consultar el número de elementos del conjunto. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8hh_source.html#l00016">16</a> del archivo <a class="el" href="_conjunto_torneos_8hh_source.html">ConjuntoTorneos.hh</a>.</p>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a id="ab5d1ef8c55d523d3d6bb64916a6971a2" name="ab5d1ef8c55d523d3d6bb64916a6971a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5d1ef8c55d523d3d6bb64916a6971a2">&#9670;&nbsp;</a></span>ConjuntoTorneos() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConjuntoTorneos::ConjuntoTorneos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creador por defecto Se genera un conjunto de torneos automáticamente al declararse. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es un conjunto de torneos no inicializado </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00007">7</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">    7</span>                                 {</div>
+<div class="line"><span class="lineno">    8</span>    <a class="code hl_variable" href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ntor</a> = 0;</div>
+<div class="line"><span class="lineno">    9</span>}</div>
+<div class="ttc" id="aclass_conjunto_torneos_html_a800d0bb34fb229a939c54833c331794f"><div class="ttname"><a href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ConjuntoTorneos::ntor</a></div><div class="ttdeci">int ntor</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8hh_source.html#l00023">ConjuntoTorneos.hh:23</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acadcd86c1aedd3a364ef16e7a5ce4418" name="acadcd86c1aedd3a364ef16e7a5ce4418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acadcd86c1aedd3a364ef16e7a5ce4418">&#9670;&nbsp;</a></span>ConjuntoTorneos() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ConjuntoTorneos::ConjuntoTorneos </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creador inicializado Se genera un conjunto de torneos inicializado con un número de torneos. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es un conjunto de torneos con t numero de torneos </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00011">11</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   11</span>                                      {</div>
+<div class="line"><span class="lineno">   12</span>    <a class="code hl_variable" href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ntor</a> = t;</div>
+<div class="line"><span class="lineno">   13</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a id="ac789669cdaf852691b4828e96177df5e" name="ac789669cdaf852691b4828e96177df5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac789669cdaf852691b4828e96177df5e">&#9670;&nbsp;</a></span>nuevo_torneo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConjuntoTorneos::nuevo_torneo </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_categoria.html">Categoria</a> &amp;&#160;</td>
+          <td class="paramname"><em>cat</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Se añade un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con identificador y categoría al conjunto. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>No existe un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con identificador id </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es el conjunto de los torneos anteriores y el añadido con identificador id y de <a class="el" href="class_categoria.html" title="Representa una categoria del circuito. La categoria se puede identificar con un string (name) o con u...">Categoria</a> cat </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00015">15</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   15</span>                                                             {</div>
+<div class="line"><span class="lineno">   16</span>    <a class="code hl_class" href="class_torneo.html">Torneo</a> torn(<span class="keywordtype">id</span>, cat);</div>
+<div class="line"><span class="lineno">   17</span>    <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>.insert(make_pair(<span class="keywordtype">id</span>, torn));</div>
+<div class="line"><span class="lineno">   18</span>    ++<a class="code hl_variable" href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ntor</a>;</div>
+<div class="line"><span class="lineno">   19</span>}</div>
+<div class="ttc" id="aclass_conjunto_torneos_html_a155ebbb2be65c0b165081ee81318ff96"><div class="ttname"><a href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">ConjuntoTorneos::map_tor</a></div><div class="ttdeci">map&lt; string, Torneo &gt; map_tor</div><div class="ttdoc">map de Torneo que representa el conjunto de torneos y contiene todos los del circuito</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8hh_source.html#l00021">ConjuntoTorneos.hh:21</a></div></div>
+<div class="ttc" id="aclass_torneo_html"><div class="ttname"><a href="class_torneo.html">Torneo</a></div><div class="ttdoc">Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8hh_source.html#l00022">Torneo.hh:22</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7031c200aaf404148febd4e06186c628" name="a7031c200aaf404148febd4e06186c628"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7031c200aaf404148febd4e06186c628">&#9670;&nbsp;</a></span>baja_torneo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConjuntoTorneos::baja_torneo </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Se elimina un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con identificador id del conjunto de torneos. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>Existe un torneo con identificador id </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es el conjunto de torneos sin el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con identificador id </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00021">21</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   21</span>                                            {</div>
+<div class="line"><span class="lineno">   22</span>    <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>.erase(<span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">   23</span>    --<a class="code hl_variable" href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ntor</a>;</div>
+<div class="line"><span class="lineno">   24</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9caef63761c6494ef44389e6e478746c" name="a9caef63761c6494ef44389e6e478746c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9caef63761c6494ef44389e6e478746c">&#9670;&nbsp;</a></span>definir_cuadro_y_participantes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConjuntoTorneos::definir_cuadro_y_participantes </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id_to</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const BinTree&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>arb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const vector&lt; <a class="el" href="class_jugador.html">Jugador</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Se asigna el cuadro de emparejamientos y los participantes al <em><a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a></em> requerido. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>"id_to" es un string que representa el nombre de un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a>, "arb" es el cuadro de emparejamientos de este <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> y 'r' es el vector de participantes </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha asignado el cuadro de emparejamientos y el vector de participantes al <em><a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a></em> con identificador "id_to" </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00026">26</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   26</span>                                                                                                                     {</div>
+<div class="line"><span class="lineno">   27</span> </div>
+<div class="line"><span class="lineno">   28</span>    <span class="comment">// Se asignan al torneo del conjunto el arbol de emparejamientos y el vector de participantes</span></div>
+<div class="line"><span class="lineno">   29</span>    <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>[id_to].asignar_cuadro_emp_participantes(arb,r);</div>
+<div class="line"><span class="lineno">   30</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a758c8f83b85bd53373413d6f39880d05" name="a758c8f83b85bd53373413d6f39880d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a758c8f83b85bd53373413d6f39880d05">&#9670;&nbsp;</a></span>definir_ult_jugadores()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConjuntoTorneos::definir_ult_jugadores </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id_to</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_torneo.html">Torneo</a> &amp;&#160;</td>
+          <td class="paramname"><em>torn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Se asignan los participantes de la última edición al <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> requerido. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>"id_to" es un string que representa el nombre de un torneo y "torn" contiene el vector de participantes </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se ha asignado al <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> "torn" el vector de participantes de la última edición </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00032">32</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>                                                                       {</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>    <span class="comment">// Se asigna al torneo del conjunto el vector de participantes de la ultima edicion</span></div>
+<div class="line"><span class="lineno">   35</span>    vector&lt;Jugador&gt; last = torn.<a class="code hl_function" href="class_torneo.html#ae2a847a469b251390d26e4b7674441c0">consultar_participantes</a>();</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>[id_to].ult_jugadores(last);</div>
+<div class="line"><span class="lineno">   37</span>}</div>
+<div class="ttc" id="aclass_torneo_html_ae2a847a469b251390d26e4b7674441c0"><div class="ttname"><a href="class_torneo.html#ae2a847a469b251390d26e4b7674441c0">Torneo::consultar_participantes</a></div><div class="ttdeci">vector&lt; Jugador &gt; consultar_participantes() const</div><div class="ttdoc">Consultora de los participantes del Torneo.</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8cc_source.html#l00214">Torneo.cc:214</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad2e69f831fcaaa9b03d473ca85d2a138" name="ad2e69f831fcaaa9b03d473ca85d2a138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2e69f831fcaaa9b03d473ca85d2a138">&#9670;&nbsp;</a></span>existe_torneo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ConjuntoTorneos::existe_torneo </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultor que indica si existe el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> dentro del conjunto de torneos. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado indica si existe un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con identificador id dentro del conjunto de torneos </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00039">39</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   39</span>                                              {</div>
+<div class="line"><span class="lineno">   40</span>    map&lt;string, Torneo&gt;::iterator it = <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>.find(<span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">if</span> (it != <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>.end()) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   42</span>    <span class="keywordflow">else</span> <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   43</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac96267f738eb23fe7016bcab08e1c961" name="ac96267f738eb23fe7016bcab08e1c961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac96267f738eb23fe7016bcab08e1c961">&#9670;&nbsp;</a></span>numero_torneos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ConjuntoTorneos::numero_torneos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Consultor del número de toneos total del conjunto. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es el número de torneos del conjunto de torneos </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00045">45</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   45</span>                                         {</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ntor</a>;</div>
+<div class="line"><span class="lineno">   47</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad346e7fdfa4db9ade1b592a0a890bb7c" name="ad346e7fdfa4db9ade1b592a0a890bb7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad346e7fdfa4db9ade1b592a0a890bb7c">&#9670;&nbsp;</a></span>consultar_torneo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_torneo.html">Torneo</a> ConjuntoTorneos::consultar_torneo </td>
+          <td>(</td>
+          <td class="paramtype">string &amp;&#160;</td>
+          <td class="paramname"><em>id_to</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Devuelve el <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> con identificador id_to. </p>
+<dl class="section pre"><dt>Precondición</dt><dd>Existe un <a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a> en el conjunto con identificador id_to </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>El resultado es el torneo del conjunto con identificador id_to </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00049">49</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   49</span>                                                      {</div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>[id_to];</div>
+<div class="line"><span class="lineno">   51</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5a4e5af51e2d5941c6ac93c2ff3fe777" name="a5a4e5af51e2d5941c6ac93c2ff3fe777"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a4e5af51e2d5941c6ac93c2ff3fe777">&#9670;&nbsp;</a></span>leer_torneos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConjuntoTorneos::leer_torneos </td>
+          <td>(</td>
+          <td class="paramtype">map&lt; int, <a class="el" href="class_categoria.html">Categoria</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>map_cat</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de lectura de los torneos del conjunto de torneos. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han leído los torneos del conjunto de torneos asignando un string como identificador y un entero que representa la <a class="el" href="class_categoria.html" title="Representa una categoria del circuito. La categoria se puede identificar con un string (name) o con u...">Categoria</a> a la que pertenece. </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00053">53</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   53</span>                                                               {</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordtype">string</span> name;</div>
+<div class="line"><span class="lineno">   55</span>    <span class="keywordtype">int</span> cat;</div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= <a class="code hl_variable" href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ntor</a>; ++i) {</div>
+<div class="line"><span class="lineno">   57</span>        cin &gt;&gt; name;</div>
+<div class="line"><span class="lineno">   58</span>        cin &gt;&gt; cat;</div>
+<div class="line"><span class="lineno">   59</span>        <a class="code hl_class" href="class_categoria.html">Categoria</a> ct = map_cat[cat];</div>
+<div class="line"><span class="lineno">   60</span>        <a class="code hl_class" href="class_torneo.html">Torneo</a> torn(name, ct);</div>
+<div class="line"><span class="lineno">   61</span>        <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>.insert(make_pair(name, torn));</div>
+<div class="line"><span class="lineno">   62</span>    }</div>
+<div class="line"><span class="lineno">   63</span>}</div>
+<div class="ttc" id="aclass_categoria_html"><div class="ttname"><a href="class_categoria.html">Categoria</a></div><div class="ttdoc">Representa una categoria del circuito. La categoria se puede identificar con un string (name) o con u...</div><div class="ttdef"><b>Definition:</b> <a href="_categoria_8hh_source.html#l00023">Categoria.hh:23</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aac4262de7d64c3fa0f24feb089818e3e" name="aac4262de7d64c3fa0f24feb089818e3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac4262de7d64c3fa0f24feb089818e3e">&#9670;&nbsp;</a></span>listar_torneos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConjuntoTorneos::listar_torneos </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Operación de escritura de los torneos del conjunto de torneos. </p>
+<dl class="section pre"><dt>Precondición</dt><dd><em>Cierto</em> </dd></dl>
+<dl class="section post"><dt>Postcondición</dt><dd>Se han escrito a través del canal estándar de salida el identificador y la <a class="el" href="class_categoria.html" title="Representa una categoria del circuito. La categoria se puede identificar con un string (name) o con u...">Categoria</a> de los torneos del conjunto crecientemente (a partir del nombre) </dd></dl>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8cc_source.html#l00065">65</a> del archivo <a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>                                     {</div>
+<div class="line"><span class="lineno">   66</span>    cout &lt;&lt; <a class="code hl_variable" href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ntor</a> &lt;&lt; endl;</div>
+<div class="line"><span class="lineno">   67</span>    map&lt;string, Torneo&gt;::iterator it;</div>
+<div class="line"><span class="lineno">   68</span>    <span class="keywordflow">for</span> (it = <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>.begin(); it != <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>.end(); ++it) </div>
+<div class="line"><span class="lineno">   69</span>        it-&gt;second.listar_torneo();</div>
+<div class="line"><span class="lineno">   70</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a id="a155ebbb2be65c0b165081ee81318ff96" name="a155ebbb2be65c0b165081ee81318ff96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a155ebbb2be65c0b165081ee81318ff96">&#9670;&nbsp;</a></span>map_tor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">map&lt;string, <a class="el" href="class_torneo.html">Torneo</a>&gt; ConjuntoTorneos::map_tor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>map de <em><a class="el" href="class_torneo.html" title="Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...">Torneo</a></em> que representa el conjunto de torneos y contiene todos los del circuito </p>
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8hh_source.html#l00021">21</a> del archivo <a class="el" href="_conjunto_torneos_8hh_source.html">ConjuntoTorneos.hh</a>.</p>
+
+</div>
+</div>
+<a id="a800d0bb34fb229a939c54833c331794f" name="a800d0bb34fb229a939c54833c331794f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a800d0bb34fb229a939c54833c331794f">&#9670;&nbsp;</a></span>ntor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ConjuntoTorneos::ntor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definición en la línea <a class="el" href="_conjunto_torneos_8hh_source.html#l00023">23</a> del archivo <a class="el" href="_conjunto_torneos_8hh_source.html">ConjuntoTorneos.hh</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir de los siguientes ficheros:<ul>
+<li><a class="el" href="_conjunto_torneos_8hh_source.html">ConjuntoTorneos.hh</a></li>
+<li><a class="el" href="_conjunto_torneos_8cc_source.html">ConjuntoTorneos.cc</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>

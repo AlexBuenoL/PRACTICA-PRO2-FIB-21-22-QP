@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.4"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Práctica de PRO2: Circuito de torneos de tenis: Fichero Fuente ConjuntoTorneos.hh</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Práctica de PRO2: Circuito de torneos de tenis<span id="projectnumber">&#160;v5.0 16-05-2022</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.4 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Buscar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7ab99c7ab51e26a06b00436aad42de91.html">Practica</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">ConjuntoTorneos.hh</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_conjunto_torneos_8hh.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#ifndef CONJUNTO_TORNEOS_HH</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#define CONJUNTO_TORNEOS_HH</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &quot;<a class="code" href="_torneo_8hh.html">Torneo.hh</a>&quot;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_conjunto_torneos.html">   16</a></span><span class="keyword">class </span><a class="code hl_class" href="class_conjunto_torneos.html">ConjuntoTorneos</a> {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">   21</a></span>    map&lt;string, Torneo&gt; <a class="code hl_variable" href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">map_tor</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">   23</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ntor</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <span class="comment">// Constructores</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_function" href="class_conjunto_torneos.html#ab5d1ef8c55d523d3d6bb64916a6971a2">ConjuntoTorneos</a>();</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <a class="code hl_function" href="class_conjunto_torneos.html#ab5d1ef8c55d523d3d6bb64916a6971a2">ConjuntoTorneos</a>(<span class="keywordtype">int</span> t);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <span class="comment">// Modificadores</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_conjunto_torneos.html#ac789669cdaf852691b4828e96177df5e">nuevo_torneo</a>(<span class="keywordtype">string</span>&amp; <span class="keywordtype">id</span>, <a class="code hl_class" href="class_categoria.html">Categoria</a>&amp; cat);</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_conjunto_torneos.html#a7031c200aaf404148febd4e06186c628">baja_torneo</a>(<span class="keywordtype">string</span>&amp; <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_conjunto_torneos.html#a9caef63761c6494ef44389e6e478746c">definir_cuadro_y_participantes</a>(<span class="keywordtype">string</span>&amp; id_to, <span class="keyword">const</span> BinTree&lt;int&gt;&amp; arb, <span class="keyword">const</span> vector&lt;Jugador&gt;&amp; r);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_conjunto_torneos.html#a758c8f83b85bd53373413d6f39880d05">definir_ult_jugadores</a>(<span class="keywordtype">string</span>&amp; id_to, <a class="code hl_class" href="class_torneo.html">Torneo</a>&amp; torn);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="comment">// Consultores</span></div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_conjunto_torneos.html#ad2e69f831fcaaa9b03d473ca85d2a138">existe_torneo</a>(<span class="keywordtype">string</span>&amp; <span class="keywordtype">id</span>);</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="class_conjunto_torneos.html#ac96267f738eb23fe7016bcab08e1c961">numero_torneos</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>    <a class="code hl_class" href="class_torneo.html">Torneo</a> <a class="code hl_function" href="class_conjunto_torneos.html#ad346e7fdfa4db9ade1b592a0a890bb7c">consultar_torneo</a>(<span class="keywordtype">string</span>&amp; id_to);</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    </div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="comment">// Lectura y escritura</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_conjunto_torneos.html#a5a4e5af51e2d5941c6ac93c2ff3fe777">leer_torneos</a>(map&lt;int, Categoria&gt;&amp; map_cat);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    </div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_conjunto_torneos.html#aac4262de7d64c3fa0f24feb089818e3e">listar_torneos</a>();</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>};</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="a_torneo_8hh_html"><div class="ttname"><a href="_torneo_8hh.html">Torneo.hh</a></div><div class="ttdoc">Especificación de la clase Torneo.</div></div>
+<div class="ttc" id="aclass_categoria_html"><div class="ttname"><a href="class_categoria.html">Categoria</a></div><div class="ttdoc">Representa una categoria del circuito. La categoria se puede identificar con un string (name) o con u...</div><div class="ttdef"><b>Definition:</b> <a href="_categoria_8hh_source.html#l00023">Categoria.hh:23</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html"><div class="ttname"><a href="class_conjunto_torneos.html">ConjuntoTorneos</a></div><div class="ttdoc">Representa un conjunto de torneos. Conjunto de torneos ordenados crecientemente por nombre....</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8hh_source.html#l00016">ConjuntoTorneos.hh:16</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_a155ebbb2be65c0b165081ee81318ff96"><div class="ttname"><a href="class_conjunto_torneos.html#a155ebbb2be65c0b165081ee81318ff96">ConjuntoTorneos::map_tor</a></div><div class="ttdeci">map&lt; string, Torneo &gt; map_tor</div><div class="ttdoc">map de Torneo que representa el conjunto de torneos y contiene todos los del circuito</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8hh_source.html#l00021">ConjuntoTorneos.hh:21</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_a5a4e5af51e2d5941c6ac93c2ff3fe777"><div class="ttname"><a href="class_conjunto_torneos.html#a5a4e5af51e2d5941c6ac93c2ff3fe777">ConjuntoTorneos::leer_torneos</a></div><div class="ttdeci">void leer_torneos(map&lt; int, Categoria &gt; &amp;map_cat)</div><div class="ttdoc">Operación de lectura de los torneos del conjunto de torneos.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8cc_source.html#l00053">ConjuntoTorneos.cc:53</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_a7031c200aaf404148febd4e06186c628"><div class="ttname"><a href="class_conjunto_torneos.html#a7031c200aaf404148febd4e06186c628">ConjuntoTorneos::baja_torneo</a></div><div class="ttdeci">void baja_torneo(string &amp;id)</div><div class="ttdoc">Se elimina un Torneo con identificador id del conjunto de torneos.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8cc_source.html#l00021">ConjuntoTorneos.cc:21</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_a758c8f83b85bd53373413d6f39880d05"><div class="ttname"><a href="class_conjunto_torneos.html#a758c8f83b85bd53373413d6f39880d05">ConjuntoTorneos::definir_ult_jugadores</a></div><div class="ttdeci">void definir_ult_jugadores(string &amp;id_to, Torneo &amp;torn)</div><div class="ttdoc">Se asignan los participantes de la última edición al Torneo requerido.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8cc_source.html#l00032">ConjuntoTorneos.cc:32</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_a800d0bb34fb229a939c54833c331794f"><div class="ttname"><a href="class_conjunto_torneos.html#a800d0bb34fb229a939c54833c331794f">ConjuntoTorneos::ntor</a></div><div class="ttdeci">int ntor</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8hh_source.html#l00023">ConjuntoTorneos.hh:23</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_a9caef63761c6494ef44389e6e478746c"><div class="ttname"><a href="class_conjunto_torneos.html#a9caef63761c6494ef44389e6e478746c">ConjuntoTorneos::definir_cuadro_y_participantes</a></div><div class="ttdeci">void definir_cuadro_y_participantes(string &amp;id_to, const BinTree&lt; int &gt; &amp;arb, const vector&lt; Jugador &gt; &amp;r)</div><div class="ttdoc">Se asigna el cuadro de emparejamientos y los participantes al Torneo requerido.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8cc_source.html#l00026">ConjuntoTorneos.cc:26</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_aac4262de7d64c3fa0f24feb089818e3e"><div class="ttname"><a href="class_conjunto_torneos.html#aac4262de7d64c3fa0f24feb089818e3e">ConjuntoTorneos::listar_torneos</a></div><div class="ttdeci">void listar_torneos()</div><div class="ttdoc">Operación de escritura de los torneos del conjunto de torneos.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8cc_source.html#l00065">ConjuntoTorneos.cc:65</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_ab5d1ef8c55d523d3d6bb64916a6971a2"><div class="ttname"><a href="class_conjunto_torneos.html#ab5d1ef8c55d523d3d6bb64916a6971a2">ConjuntoTorneos::ConjuntoTorneos</a></div><div class="ttdeci">ConjuntoTorneos()</div><div class="ttdoc">Creador por defecto Se genera un conjunto de torneos automáticamente al declararse.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8cc_source.html#l00007">ConjuntoTorneos.cc:7</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_ac789669cdaf852691b4828e96177df5e"><div class="ttname"><a href="class_conjunto_torneos.html#ac789669cdaf852691b4828e96177df5e">ConjuntoTorneos::nuevo_torneo</a></div><div class="ttdeci">void nuevo_torneo(string &amp;id, Categoria &amp;cat)</div><div class="ttdoc">Se añade un Torneo con identificador y categoría al conjunto.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8cc_source.html#l00015">ConjuntoTorneos.cc:15</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_ac96267f738eb23fe7016bcab08e1c961"><div class="ttname"><a href="class_conjunto_torneos.html#ac96267f738eb23fe7016bcab08e1c961">ConjuntoTorneos::numero_torneos</a></div><div class="ttdeci">int numero_torneos() const</div><div class="ttdoc">Consultor del número de toneos total del conjunto.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8cc_source.html#l00045">ConjuntoTorneos.cc:45</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_ad2e69f831fcaaa9b03d473ca85d2a138"><div class="ttname"><a href="class_conjunto_torneos.html#ad2e69f831fcaaa9b03d473ca85d2a138">ConjuntoTorneos::existe_torneo</a></div><div class="ttdeci">bool existe_torneo(string &amp;id)</div><div class="ttdoc">Consultor que indica si existe el Torneo dentro del conjunto de torneos.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8cc_source.html#l00039">ConjuntoTorneos.cc:39</a></div></div>
+<div class="ttc" id="aclass_conjunto_torneos_html_ad346e7fdfa4db9ade1b592a0a890bb7c"><div class="ttname"><a href="class_conjunto_torneos.html#ad346e7fdfa4db9ade1b592a0a890bb7c">ConjuntoTorneos::consultar_torneo</a></div><div class="ttdeci">Torneo consultar_torneo(string &amp;id_to)</div><div class="ttdoc">Devuelve el Torneo con identificador id_to.</div><div class="ttdef"><b>Definition:</b> <a href="_conjunto_torneos_8cc_source.html#l00049">ConjuntoTorneos.cc:49</a></div></div>
+<div class="ttc" id="aclass_torneo_html"><div class="ttname"><a href="class_torneo.html">Torneo</a></div><div class="ttdoc">Representa un torneo. Se identifica con un string y pertenece a una Categoria. Contiene un BinTree qu...</div><div class="ttdef"><b>Definition:</b> <a href="_torneo_8hh_source.html#l00022">Torneo.hh:22</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.4
+</small></address>
+</body>
+</html>

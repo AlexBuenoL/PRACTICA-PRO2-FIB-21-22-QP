@@ -1,0 +1,8 @@
+<map id="ConjuntoTorneos.cc" name="ConjuntoTorneos.cc">
+<area shape="rect" id="node1" title="Código de la clase ConjuntoTorneos." alt="" coords="37,5,174,32"/>
+<area shape="rect" id="node2" href="$_conjunto_torneos_8hh.html" title="Especificación de la clase ConjuntoTorneos." alt="" coords="37,80,174,107"/>
+<area shape="rect" id="node3" href="$_torneo_8hh.html" title="Especificación de la clase Torneo." alt="" coords="66,155,145,181"/>
+<area shape="rect" id="node4" href="$_conjunto_jugadores_8hh.html" title="Especificación de la clase ConjuntoJugadores." alt="" coords="30,229,181,256"/>
+<area shape="rect" id="node5" href="$_jugador_8hh.html" title="Especificación de la clase Jugador." alt="" coords="5,304,91,331"/>
+<area shape="rect" id="node6" href="$_categoria_8hh.html" title="Especificación de la clase Categoria." alt="" coords="115,304,210,331"/>
+</map>
