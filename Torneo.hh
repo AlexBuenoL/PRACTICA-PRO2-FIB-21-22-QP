@@ -1,6 +1,5 @@
 /** @file Torneo.hh
-    @brief Especificación de la clase Torneo
-*/
+    @brief Especificación de la clase Torneo */
 
 #ifndef TORNEO_HH
 #define TORNEO_HH

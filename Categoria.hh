@@ -1,6 +1,5 @@
 /** @file Categoria.hh
-    @brief Especificación de la clase Categoria
-*/
+    @brief Especificación de la clase Categoria */
 
 #ifndef CATEGORIA_HH
 #define CATEGORIA_HH

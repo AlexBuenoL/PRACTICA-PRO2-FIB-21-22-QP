@@ -20,7 +20,7 @@ ParInt();
   /* Post: el resultat es el parint (0,0) */
 ParInt(int a,int b);
  /* Pre:  cert */
-  /* Post: el resultat es el parint (a,b) */
+ /* Post: el resultat es el parint (a,b) */
 
   //Consultores
 
@@ -36,7 +36,7 @@ int segon() const;
 bool llegir();
   /* Pre:  cert*/
   /* Post: llegeix dos enters i els assigna al parametre implicit, a mes, */
-        /* si llegeix el parell 0 0 retorna fals, altrament retorna cert */
+  /* si llegeix el parell 0 0 retorna fals, altrament retorna cert */
 void escriure();
   /* Pre: cert */
   /* Post: escriu el parametre implicit per la sortida estandard */

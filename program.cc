@@ -1,12 +1,10 @@
 /**
 @mainpage Práctica de PRO2: Circuito de torneos de tenis
 Programa de simulación de la gestión deportiva y el cálculo del ranking de 
-un circuito de torneos de tenis.
-*/
+un circuito de torneos de tenis. */
 
 /** @file program.cc
-    @brief Programa principal para la práctica <em>Circuito de torneos de tenis</em>
-*/
+    @brief Programa principal para la práctica <em>Circuito de torneos de tenis</em> */
 
 #include "Jugador.hh"
 #include "ConjuntoJugadores.hh"
@@ -26,8 +24,7 @@ un circuito de torneos de tenis.
 
 using namespace std;
 
-/** @brief Programa principal para la práctica <em>Circuito de torneos de tenis</em>.
-*/
+/** @brief Programa principal para la práctica <em>Circuito de torneos de tenis</em>. */
 
 int main() {
     

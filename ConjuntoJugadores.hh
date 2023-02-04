@@ -1,6 +1,5 @@
 /** @file ConjuntoJugadores.hh
-    @brief Especificación de la clase ConjuntoJugadores
-*/
+    @brief Especificación de la clase ConjuntoJugadores */
 
 #ifndef CONJUNTO_JUGADORES_HH
 #define CONJUNTO_JUGADORES_HH

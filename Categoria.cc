@@ -1,6 +1,5 @@
 /** @file Categoria.cc
-    @brief Código de la clase Categoria
-*/
+    @brief Código de la clase Categoria */
 
 #include "Categoria.hh"
 using namespace std;

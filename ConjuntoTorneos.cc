@@ -1,6 +1,5 @@
 /** @file ConjuntoTorneos.cc
-    @brief Código de la clase ConjuntoTorneos
-*/
+    @brief Código de la clase ConjuntoTorneos */
 
 #include "ConjuntoTorneos.hh"
 

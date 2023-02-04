@@ -26,6 +26,6 @@ Categoria.o: Categoria.cc Categoria.hh
 	g++ -c Categoria.cc $(OPCIONS)
 
 clean:
-	rm *.o
 	rm *.exe
 	rm *.gch
+	rm *.o

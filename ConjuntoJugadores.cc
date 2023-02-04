@@ -1,6 +1,5 @@
 /** @file ConjuntoJugadores.cc
-    @brief Código de la clase ConjuntoJugadores
-*/
+    @brief Código de la clase ConjuntoJugadores */
 
 #include "ConjuntoJugadores.hh"
 #include <algorithm>

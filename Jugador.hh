@@ -1,6 +1,5 @@
 /** @file Jugador.hh
-    @brief Especificación de la clase Jugador
-*/
+    @brief Especificación de la clase Jugador */
 
 #ifndef JUGADOR_HH
 #define JUGADOR_HH
@@ -17,8 +16,7 @@ using namespace std;
     y una serie de atributos en forma de enteros que representan las estadísticas 
     de cada jugador: posición en el ranking, puntos actuales, torneos disputados,
     partidos ganados y perdidos, sets ganados y perdidos, juegos ganados y perdidos, 
-    y los puntos ganados en la edición actual o en la última edición del torneo.
-*/
+    y los puntos ganados en la edición actual o en la última edición del torneo. */
 class Jugador {
 
 private:

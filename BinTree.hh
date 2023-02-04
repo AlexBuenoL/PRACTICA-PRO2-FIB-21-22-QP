@@ -27,7 +27,7 @@ template <typename T> class BinTree {
     :   p(p)
     {   }
 
-    // Notes:
+    //   Notes:
     //   - default operator=() is good.
     //   - default destructor is good. Θ(n) where n is the number of nodes in the tree.
     //   - std::swap() already works by default.

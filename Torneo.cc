@@ -1,6 +1,5 @@
 /** @file Torneo.cc
-    @brief Código de la clase Torneo
-*/
+    @brief Código de la clase Torneo */
 
 #include "Torneo.hh"
 #ifndef NO_DIAGRAM

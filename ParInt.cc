@@ -1,6 +1,5 @@
 #include "ParInt.hh"
 
-
 ParInt::ParInt(){
   p=0;s=0;
 }

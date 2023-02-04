@@ -1,6 +1,5 @@
 /** @file ConjuntoTorneos.hh
-    @brief Especificación de la clase ConjuntoTorneos
-*/
+    @brief Especificación de la clase ConjuntoTorneos */
 
 #ifndef CONJUNTO_TORNEOS_HH
 #define CONJUNTO_TORNEOS_HH
@@ -11,8 +10,7 @@
     @brief Representa un conjunto de torneos.
     Conjunto de torneos ordenados crecientemente por nombre. 
     Se puede modificar añadiendo o eliminando torneos, consultar si existe 
-    un determinado torneo o consultar el número de elementos del conjunto.
-*/
+    un determinado torneo o consultar el número de elementos del conjunto. */
 class ConjuntoTorneos {
     
 private:
